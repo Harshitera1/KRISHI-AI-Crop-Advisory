@@ -1,0 +1,7685 @@
+{
+  "note": "Reference profiles for nearest-land matching. Nutrient values are typical planning estimates, not a soil test for a field.",
+  "distance_note_km": {
+    "local": 40,
+    "near": 150
+  },
+  "districts": [
+    {
+      "district": "Delhi",
+      "state": "Delhi",
+      "zone": "North",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 18,
+      "K": 90,
+      "ph": 7.6,
+      "crops": [
+        "wheat",
+        "rice",
+        "mustard"
+      ],
+      "season": "Rabi",
+      "aliases": [
+        "new delhi",
+        "delhi ncr"
+      ]
+    },
+    {
+      "district": "Amritsar",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 31.634,
+      "lng": 74.8723,
+      "soil": "Loamy",
+      "N": 55,
+      "P": 22,
+      "K": 110,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": [
+        "amritsar city"
+      ]
+    },
+    {
+      "district": "Ludhiana",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.901,
+      "lng": 75.8573,
+      "soil": "Loamy",
+      "N": 58,
+      "P": 24,
+      "K": 120,
+      "ph": 7.6,
+      "crops": [
+        "wheat",
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": [
+        "ludhiana city"
+      ]
+    },
+    {
+      "district": "Bathinda",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.211,
+      "lng": 74.9455,
+      "soil": "Sandy",
+      "N": 42,
+      "P": 18,
+      "K": 95,
+      "ph": 7.8,
+      "crops": [
+        "cotton",
+        "wheat",
+        "rice"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": [
+        "bhatinda"
+      ]
+    },
+    {
+      "district": "Patiala",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.3398,
+      "lng": 76.3869,
+      "soil": "Loamy",
+      "N": 52,
+      "P": 21,
+      "K": 105,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Karnal",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 29.6857,
+      "lng": 76.9905,
+      "soil": "Loamy",
+      "N": 50,
+      "P": 20,
+      "K": 100,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "chickpea"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Hisar",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 29.1492,
+      "lng": 75.7217,
+      "soil": "Sandy",
+      "N": 36,
+      "P": 16,
+      "K": 80,
+      "ph": 7.9,
+      "crops": [
+        "cotton",
+        "wheat",
+        "mustard"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": [
+        "hissar"
+      ]
+    },
+    {
+      "district": "Rohtak",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 28.8955,
+      "lng": 76.6066,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 18,
+      "K": 90,
+      "ph": 7.6,
+      "crops": [
+        "wheat",
+        "rice",
+        "mustard"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Gurugram",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 28.4595,
+      "lng": 77.0266,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 16,
+      "K": 85,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "mustard",
+        "millet"
+      ],
+      "season": "Rabi",
+      "aliases": [
+        "gurgaon"
+      ]
+    },
+    {
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.8467,
+      "lng": 80.9462,
+      "soil": "Loamy",
+      "N": 48,
+      "P": 20,
+      "K": 100,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil",
+        "mango"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Meerut",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.9845,
+      "lng": 77.7064,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 20,
+      "K": 95,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "sugarcane",
+        "rice"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": [
+        "meerut city"
+      ]
+    },
+    {
+      "district": "Kanpur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.4499,
+      "lng": 80.3319,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 22,
+      "K": 100,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "pulses"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": [
+        "kanpur nagar"
+      ]
+    },
+    {
+      "district": "Varanasi",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.3176,
+      "lng": 82.9739,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 18,
+      "K": 90,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "wheat",
+        "lentil"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": [
+        "banaras",
+        "kashi"
+      ]
+    },
+    {
+      "district": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.7606,
+      "lng": 83.3732,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 18,
+      "K": 88,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "wheat",
+        "sugarcane"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Agra",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.1767,
+      "lng": 78.0081,
+      "soil": "Sandy",
+      "N": 34,
+      "P": 15,
+      "K": 75,
+      "ph": 7.8,
+      "crops": [
+        "wheat",
+        "mustard",
+        "potato"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Bareilly",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.367,
+      "lng": 79.4304,
+      "soil": "Loamy",
+      "N": 45,
+      "P": 19,
+      "K": 92,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "sugarcane"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.4358,
+      "lng": 81.8463,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 17,
+      "K": 85,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "pulses"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": [
+        "allahabad"
+      ]
+    },
+    {
+      "district": "Jhansi",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.4484,
+      "lng": 78.5685,
+      "soil": "Sandy",
+      "N": 32,
+      "P": 14,
+      "K": 70,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "chickpea",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 30.3165,
+      "lng": 78.0322,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 18,
+      "K": 80,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Udham Singh Nagar",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 28.9875,
+      "lng": 79.4141,
+      "soil": "Loamy",
+      "N": 50,
+      "P": 22,
+      "K": 100,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "wheat",
+        "sugarcane"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": [
+        "rudrapur"
+      ]
+    },
+    {
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 29.3803,
+      "lng": 79.4636,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 78,
+      "ph": 6.4,
+      "crops": [
+        "maize",
+        "rice",
+        "fruit"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "soil": "Sandy",
+      "N": 28,
+      "P": 12,
+      "K": 70,
+      "ph": 7.9,
+      "crops": [
+        "mustard",
+        "wheat",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Jodhpur",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 26.2389,
+      "lng": 73.0243,
+      "soil": "Sandy",
+      "N": 22,
+      "P": 10,
+      "K": 60,
+      "ph": 8.1,
+      "crops": [
+        "millet",
+        "mustard",
+        "mothbeans",
+        "pulses"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Kota",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 25.2138,
+      "lng": 75.8648,
+      "soil": "Clay",
+      "N": 40,
+      "P": 18,
+      "K": 90,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "soybean",
+        "coriander"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sri Ganganagar",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 29.9038,
+      "lng": 73.8772,
+      "soil": "Loamy",
+      "N": 48,
+      "P": 20,
+      "K": 95,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "cotton",
+        "mustard"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": [
+        "ganganagar"
+      ]
+    },
+    {
+      "district": "Bikaner",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 28.0229,
+      "lng": 73.3119,
+      "soil": "Sandy",
+      "N": 20,
+      "P": 9,
+      "K": 55,
+      "ph": 8.2,
+      "crops": [
+        "millet",
+        "mothbeans",
+        "mustard"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Udaipur",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 24.5854,
+      "lng": 73.7125,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 16,
+      "K": 75,
+      "ph": 7.1,
+      "crops": [
+        "maize",
+        "wheat",
+        "pulses"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 27.553,
+      "lng": 76.6346,
+      "soil": "Sandy",
+      "N": 32,
+      "P": 14,
+      "K": 72,
+      "ph": 7.8,
+      "crops": [
+        "mustard",
+        "wheat",
+        "millet"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Shimla",
+      "state": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 31.1048,
+      "lng": 77.1734,
+      "soil": "Loamy",
+      "N": 30,
+      "P": 20,
+      "K": 80,
+      "ph": 6.2,
+      "crops": [
+        "apple",
+        "maize",
+        "vegetables"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Kangra",
+      "state": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 32.219,
+      "lng": 76.3234,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 18,
+      "K": 78,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "maize",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": [
+        "dharamshala"
+      ]
+    },
+    {
+      "district": "Jammu",
+      "state": "Jammu and Kashmir",
+      "zone": "North",
+      "lat": 32.7266,
+      "lng": 74.857,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 80,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Srinagar",
+      "state": "Jammu and Kashmir",
+      "zone": "North",
+      "lat": 34.0837,
+      "lng": 74.7973,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 18,
+      "K": 75,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "maize",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Leh",
+      "state": "Ladakh",
+      "zone": "North",
+      "lat": 34.1526,
+      "lng": 77.5771,
+      "soil": "Sandy",
+      "N": 18,
+      "P": 10,
+      "K": 50,
+      "ph": 7.6,
+      "crops": [
+        "barley",
+        "vegetables"
+      ],
+      "season": "Summer",
+      "aliases": [
+        "ladakh"
+      ]
+    },
+    {
+      "district": "Patna",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.5941,
+      "lng": 85.1376,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 20,
+      "K": 95,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize",
+        "lentil"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Muzaffarpur",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 26.1209,
+      "lng": 85.3647,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 18,
+      "K": 88,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "lychee",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Bhagalpur",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.2425,
+      "lng": 86.9842,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 17,
+      "K": 85,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Gaya",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 24.7955,
+      "lng": 84.9994,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 16,
+      "K": 80,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "wheat",
+        "pulses"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Purnia",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.7771,
+      "lng": 87.4753,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 18,
+      "K": 90,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "maize",
+        "jute"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "soil": "Clay",
+      "N": 50,
+      "P": 24,
+      "K": 110,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "calcutta"
+      ]
+    },
+    {
+      "district": "Bardhaman",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 23.2324,
+      "lng": 87.8615,
+      "soil": "Loamy",
+      "N": 48,
+      "P": 22,
+      "K": 100,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "potato",
+        "jute"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": [
+        "burdwan"
+      ]
+    },
+    {
+      "district": "Nadia",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 23.4009,
+      "lng": 88.5014,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 20,
+      "K": 95,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "jute",
+        "lentil"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "krishnanagar"
+      ]
+    },
+    {
+      "district": "Malda",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 25.0108,
+      "lng": 88.1411,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 18,
+      "K": 88,
+      "ph": 6.6,
+      "crops": [
+        "mango",
+        "rice",
+        "jute"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Darjeeling",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 27.036,
+      "lng": 88.2627,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 70,
+      "ph": 5.8,
+      "crops": [
+        "tea",
+        "maize",
+        "vegetables"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Ranchi",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 23.3441,
+      "lng": 85.3096,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 15,
+      "K": 70,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "maize",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dhanbad",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 23.7957,
+      "lng": 86.4304,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 14,
+      "K": 68,
+      "ph": 6.3,
+      "crops": [
+        "rice",
+        "maize",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bhubaneswar",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 20.2961,
+      "lng": 85.8245,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 16,
+      "K": 80,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "pulses",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Cuttack",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 20.4625,
+      "lng": 85.883,
+      "soil": "Clay",
+      "N": 44,
+      "P": 18,
+      "K": 85,
+      "ph": 6.3,
+      "crops": [
+        "rice",
+        "jute",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sambalpur",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 21.4669,
+      "lng": 83.9756,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 15,
+      "K": 75,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "pulses",
+        "oilseeds"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Balasore",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 21.4942,
+      "lng": 86.9335,
+      "soil": "Clay",
+      "N": 42,
+      "P": 17,
+      "K": 82,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "baleswar"
+      ]
+    },
+    {
+      "district": "Kamrup",
+      "state": "Assam",
+      "zone": "East",
+      "lat": 26.1445,
+      "lng": 91.7362,
+      "soil": "Clay",
+      "N": 40,
+      "P": 16,
+      "K": 78,
+      "ph": 5.6,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "guwahati"
+      ]
+    },
+    {
+      "district": "Jorhat",
+      "state": "Assam",
+      "zone": "East",
+      "lat": 26.7509,
+      "lng": 94.2037,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 15,
+      "K": 72,
+      "ph": 5.4,
+      "crops": [
+        "rice",
+        "tea",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dibrugarh",
+      "state": "Assam",
+      "zone": "East",
+      "lat": 27.4728,
+      "lng": 94.912,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 14,
+      "K": 70,
+      "ph": 5.3,
+      "crops": [
+        "rice",
+        "tea"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "West Tripura",
+      "state": "Tripura",
+      "zone": "East",
+      "lat": 23.8315,
+      "lng": 91.2868,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 15,
+      "K": 74,
+      "ph": 5.7,
+      "crops": [
+        "rice",
+        "rubber",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "agartala"
+      ]
+    },
+    {
+      "district": "Imphal West",
+      "state": "Manipur",
+      "zone": "East",
+      "lat": 24.817,
+      "lng": 93.9368,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 14,
+      "K": 70,
+      "ph": 5.8,
+      "crops": [
+        "rice",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "imphal"
+      ]
+    },
+    {
+      "district": "East Khasi Hills",
+      "state": "Meghalaya",
+      "zone": "East",
+      "lat": 25.5788,
+      "lng": 91.8933,
+      "soil": "Loamy",
+      "N": 30,
+      "P": 14,
+      "K": 65,
+      "ph": 5.5,
+      "crops": [
+        "rice",
+        "potato",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "shillong"
+      ]
+    },
+    {
+      "district": "Aizawl",
+      "state": "Mizoram",
+      "zone": "East",
+      "lat": 23.7271,
+      "lng": 92.7176,
+      "soil": "Loamy",
+      "N": 28,
+      "P": 12,
+      "K": 60,
+      "ph": 5.6,
+      "crops": [
+        "rice",
+        "maize",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kohima",
+      "state": "Nagaland",
+      "zone": "East",
+      "lat": 25.6751,
+      "lng": 94.1086,
+      "soil": "Loamy",
+      "N": 28,
+      "P": 12,
+      "K": 58,
+      "ph": 5.5,
+      "crops": [
+        "rice",
+        "maize",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Papum Pare",
+      "state": "Arunachal Pradesh",
+      "zone": "East",
+      "lat": 27.0844,
+      "lng": 93.6053,
+      "soil": "Loamy",
+      "N": 26,
+      "P": 12,
+      "K": 55,
+      "ph": 5.6,
+      "crops": [
+        "rice",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "itanagar"
+      ]
+    },
+    {
+      "district": "Gangtok",
+      "state": "Sikkim",
+      "zone": "East",
+      "lat": 27.3389,
+      "lng": 88.6065,
+      "soil": "Loamy",
+      "N": 30,
+      "P": 16,
+      "K": 68,
+      "ph": 5.7,
+      "crops": [
+        "maize",
+        "rice",
+        "cardamom"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bhopal",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.2599,
+      "lng": 77.4126,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 22,
+      "K": 80,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "chickpea",
+        "soybean"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Indore",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 22.7196,
+      "lng": 75.8577,
+      "soil": "Clay",
+      "N": 42,
+      "P": 24,
+      "K": 85,
+      "ph": 7.4,
+      "crops": [
+        "soybean",
+        "wheat",
+        "chickpea"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Jabalpur",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.1815,
+      "lng": 79.9864,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 18,
+      "K": 75,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "wheat",
+        "pulses"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Gwalior",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 26.2183,
+      "lng": 78.1828,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 72,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "mustard",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Sagar",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.8388,
+      "lng": 78.7378,
+      "soil": "Clay",
+      "N": 34,
+      "P": 16,
+      "K": 70,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "chickpea",
+        "soybean"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Narmadapuram",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 22.7519,
+      "lng": 77.7289,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 18,
+      "K": 76,
+      "ph": 7.0,
+      "crops": [
+        "wheat",
+        "soybean",
+        "pulses"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": [
+        "hoshangabad"
+      ]
+    },
+    {
+      "district": "Raipur",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 21.2514,
+      "lng": 81.6296,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 16,
+      "K": 78,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Durg",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 21.1904,
+      "lng": 81.2849,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 15,
+      "K": 74,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 22.0797,
+      "lng": 82.1409,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 15,
+      "K": 72,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "wheat",
+        "pulses"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Pune",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 18.5204,
+      "lng": 73.8567,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 70,
+      "ph": 7.2,
+      "crops": [
+        "sugarcane",
+        "jowar",
+        "vegetables",
+        "grapes"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 21.1458,
+      "lng": 79.0882,
+      "soil": "Clay",
+      "N": 40,
+      "P": 18,
+      "K": 80,
+      "ph": 7.0,
+      "crops": [
+        "cotton",
+        "soybean",
+        "orange",
+        "pigeonpeas"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 19.9975,
+      "lng": 73.7898,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 16,
+      "K": 68,
+      "ph": 7.1,
+      "crops": [
+        "grapes",
+        "onion",
+        "maize"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Chhatrapati Sambhajinagar",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 19.8762,
+      "lng": 75.3433,
+      "soil": "Clay",
+      "N": 38,
+      "P": 17,
+      "K": 74,
+      "ph": 7.3,
+      "crops": [
+        "cotton",
+        "pigeonpeas",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "aurangabad"
+      ]
+    },
+    {
+      "district": "Amravati",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 20.9374,
+      "lng": 77.7796,
+      "soil": "Clay",
+      "N": 40,
+      "P": 18,
+      "K": 78,
+      "ph": 7.2,
+      "crops": [
+        "cotton",
+        "soybean",
+        "pigeonpeas",
+        "orange"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kolhapur",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 16.705,
+      "lng": 74.2433,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 18,
+      "K": 80,
+      "ph": 6.8,
+      "crops": [
+        "sugarcane",
+        "rice",
+        "jowar"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "soil": "Sandy",
+      "N": 30,
+      "P": 14,
+      "K": 60,
+      "ph": 7.0,
+      "crops": [
+        "vegetables",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "bombay"
+      ]
+    },
+    {
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 23.0225,
+      "lng": 72.5714,
+      "soil": "Sandy",
+      "N": 32,
+      "P": 14,
+      "K": 65,
+      "ph": 7.6,
+      "crops": [
+        "cotton",
+        "wheat",
+        "castor"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": [
+        "ahmedabad city"
+      ]
+    },
+    {
+      "district": "Rajkot",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 22.3039,
+      "lng": 70.8022,
+      "soil": "Clay",
+      "N": 36,
+      "P": 16,
+      "K": 70,
+      "ph": 7.8,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Surat",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 21.1702,
+      "lng": 72.8311,
+      "soil": "Clay",
+      "N": 40,
+      "P": 18,
+      "K": 78,
+      "ph": 7.2,
+      "crops": [
+        "sugarcane",
+        "banana",
+        "rice"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Vadodara",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 22.3072,
+      "lng": 73.1812,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 72,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "tobacco",
+        "banana"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "baroda"
+      ]
+    },
+    {
+      "district": "Junagadh",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 21.5222,
+      "lng": 70.4579,
+      "soil": "Clay",
+      "N": 34,
+      "P": 16,
+      "K": 68,
+      "ph": 7.6,
+      "crops": [
+        "groundnut",
+        "cotton",
+        "mango"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kachchh",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 23.242,
+      "lng": 69.6669,
+      "soil": "Sandy",
+      "N": 22,
+      "P": 10,
+      "K": 55,
+      "ph": 8.0,
+      "crops": [
+        "cotton",
+        "castor",
+        "dates"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "bhuj",
+        "kutch"
+      ]
+    },
+    {
+      "district": "Bengaluru",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "soil": "Sandy",
+      "N": 34,
+      "P": 15,
+      "K": 65,
+      "ph": 6.4,
+      "crops": [
+        "ragi",
+        "maize",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "bangalore",
+        "bengaluru urban"
+      ]
+    },
+    {
+      "district": "Belagavi",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 15.8497,
+      "lng": 74.4977,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 18,
+      "K": 75,
+      "ph": 7.0,
+      "crops": [
+        "sugarcane",
+        "maize",
+        "jowar",
+        "cotton"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": [
+        "belgaum"
+      ]
+    },
+    {
+      "district": "Mysuru",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 12.2958,
+      "lng": 76.6394,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 70,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "ragi",
+        "sugarcane"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "mysore"
+      ]
+    },
+    {
+      "district": "Raichur",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 16.212,
+      "lng": 77.3566,
+      "soil": "Clay",
+      "N": 38,
+      "P": 16,
+      "K": 72,
+      "ph": 7.4,
+      "crops": [
+        "rice",
+        "cotton",
+        "pigeonpeas"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dharwad",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 15.4589,
+      "lng": 75.0078,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 68,
+      "ph": 6.8,
+      "crops": [
+        "jowar",
+        "cotton",
+        "maize",
+        "chilli"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Shivamogga",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 13.9299,
+      "lng": 75.5681,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 14,
+      "K": 64,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "arecanut",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "shimoga"
+      ]
+    },
+    {
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "soil": "Sandy",
+      "N": 30,
+      "P": 14,
+      "K": 60,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "groundnut",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "madras"
+      ]
+    },
+    {
+      "district": "Coimbatore",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 11.0168,
+      "lng": 76.9558,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 16,
+      "K": 72,
+      "ph": 7.1,
+      "crops": [
+        "cotton",
+        "coconut",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Madurai",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 9.9252,
+      "lng": 78.1198,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 15,
+      "K": 66,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "cotton",
+        "banana"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Thanjavur",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 10.787,
+      "lng": 79.1378,
+      "soil": "Clay",
+      "N": 42,
+      "P": 18,
+      "K": 80,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "pulses",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "tanjore"
+      ]
+    },
+    {
+      "district": "Salem",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 11.6643,
+      "lng": 78.146,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 14,
+      "K": 62,
+      "ph": 7.0,
+      "crops": [
+        "mango",
+        "tapioca",
+        "maize"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 70,
+      "ph": 7.0,
+      "crops": [
+        "cotton",
+        "rice",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Warangal",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 17.9689,
+      "lng": 79.5941,
+      "soil": "Clay",
+      "N": 40,
+      "P": 18,
+      "K": 76,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize",
+        "chilli"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "hanamkonda"
+      ]
+    },
+    {
+      "district": "Nizamabad",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 18.6725,
+      "lng": 78.0941,
+      "soil": "Clay",
+      "N": 38,
+      "P": 16,
+      "K": 72,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "turmeric",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Karimnagar",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 18.4386,
+      "lng": 79.1288,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 70,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "NTR",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 16.5062,
+      "lng": 80.648,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 18,
+      "K": 78,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "chilli",
+        "cotton"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "vijayawada"
+      ]
+    },
+    {
+      "district": "Guntur",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 16.3067,
+      "lng": 80.4365,
+      "soil": "Clay",
+      "N": 42,
+      "P": 18,
+      "K": 80,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "chilli",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 17.6868,
+      "lng": 83.2185,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 14,
+      "K": 64,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "sugarcane",
+        "cashew"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "vizag"
+      ]
+    },
+    {
+      "district": "Anantapur",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 14.6819,
+      "lng": 77.6006,
+      "soil": "Sandy",
+      "N": 28,
+      "P": 12,
+      "K": 58,
+      "ph": 7.6,
+      "crops": [
+        "groundnut",
+        "pigeonpeas",
+        "castor"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "anantapuramu"
+      ]
+    },
+    {
+      "district": "Tirupati",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 13.6288,
+      "lng": 79.4192,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 14,
+      "K": 62,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "groundnut",
+        "sugarcane"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "chittoor"
+      ]
+    },
+    {
+      "district": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 8.5241,
+      "lng": 76.9366,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 14,
+      "K": 70,
+      "ph": 5.8,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": [
+        "trivandrum"
+      ]
+    },
+    {
+      "district": "Thrissur",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 10.5276,
+      "lng": 76.2144,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 15,
+      "K": 72,
+      "ph": 5.7,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": [
+        "trichur"
+      ]
+    },
+    {
+      "district": "Palakkad",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 10.7867,
+      "lng": 76.6548,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 74,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "coconut",
+        "banana"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "palghat"
+      ]
+    },
+    {
+      "district": "Alappuzha",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 9.4981,
+      "lng": 76.3388,
+      "soil": "Clay",
+      "N": 34,
+      "P": 14,
+      "K": 70,
+      "ph": 5.5,
+      "crops": [
+        "rice",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "alleppey"
+      ]
+    },
+    {
+      "district": "North Goa",
+      "state": "Goa",
+      "zone": "South",
+      "lat": 15.4909,
+      "lng": 73.8278,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 14,
+      "K": 64,
+      "ph": 6.0,
+      "crops": [
+        "rice",
+        "coconut",
+        "cashew"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "panaji",
+        "goa"
+      ]
+    },
+    {
+      "district": "South Andaman",
+      "state": "Andaman and Nicobar Islands",
+      "zone": "South",
+      "lat": 11.6234,
+      "lng": 92.7265,
+      "soil": "Loamy",
+      "N": 30,
+      "P": 12,
+      "K": 60,
+      "ph": 5.8,
+      "crops": [
+        "coconut",
+        "rice",
+        "arecanut"
+      ],
+      "season": "Annual",
+      "aliases": [
+        "port blair"
+      ]
+    },
+    {
+      "district": "Puducherry",
+      "state": "Puducherry",
+      "zone": "South",
+      "lat": 11.9416,
+      "lng": 79.8083,
+      "soil": "Sandy",
+      "N": 32,
+      "P": 14,
+      "K": 62,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "coconut",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": [
+        "pondicherry"
+      ]
+    },
+    {
+      "district": "Jalandhar",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 31.326,
+      "lng": 75.576,
+      "soil": "Loamy",
+      "N": 47,
+      "P": 24,
+      "K": 106,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Firozpur",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.925,
+      "lng": 74.613,
+      "soil": "Loamy",
+      "N": 47,
+      "P": 23,
+      "K": 109,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Moga",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.817,
+      "lng": 75.171,
+      "soil": "Loamy",
+      "N": 47,
+      "P": 22,
+      "K": 100,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sangrur",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.246,
+      "lng": 75.842,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 22,
+      "K": 99,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Gurdaspur",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 32.041,
+      "lng": 75.405,
+      "soil": "Loamy",
+      "N": 49,
+      "P": 24,
+      "K": 110,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Hoshiarpur",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 31.532,
+      "lng": 75.912,
+      "soil": "Loamy",
+      "N": 54,
+      "P": 23,
+      "K": 110,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Faridkot",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.674,
+      "lng": 74.756,
+      "soil": "Loamy",
+      "N": 47,
+      "P": 20,
+      "K": 103,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kapurthala",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 31.38,
+      "lng": 75.381,
+      "soil": "Loamy",
+      "N": 48,
+      "P": 20,
+      "K": 99,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Pathankot",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 32.265,
+      "lng": 75.65,
+      "soil": "Loamy",
+      "N": 48,
+      "P": 19,
+      "K": 104,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Rupnagar",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.966,
+      "lng": 76.527,
+      "soil": "Loamy",
+      "N": 50,
+      "P": 25,
+      "K": 102,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "SAS Nagar",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.705,
+      "lng": 76.717,
+      "soil": "Loamy",
+      "N": 51,
+      "P": 22,
+      "K": 100,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Muktsar",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.476,
+      "lng": 74.516,
+      "soil": "Loamy",
+      "N": 51,
+      "P": 20,
+      "K": 104,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Mansa",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 29.999,
+      "lng": 75.393,
+      "soil": "Loamy",
+      "N": 47,
+      "P": 25,
+      "K": 104,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Barnala",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 30.374,
+      "lng": 75.548,
+      "soil": "Loamy",
+      "N": 51,
+      "P": 22,
+      "K": 102,
+      "ph": 7.6,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Tarn Taran",
+      "state": "Punjab",
+      "zone": "North",
+      "lat": 31.451,
+      "lng": 74.925,
+      "soil": "Loamy",
+      "N": 49,
+      "P": 20,
+      "K": 105,
+      "ph": 7.6,
+      "crops": [
+        "wheat",
+        "rice",
+        "maize"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ambala",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 30.378,
+      "lng": 76.777,
+      "soil": "Loamy",
+      "N": 47,
+      "P": 15,
+      "K": 89,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Panipat",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 29.391,
+      "lng": 76.978,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 18,
+      "K": 89,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Sonipat",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 28.994,
+      "lng": 77.022,
+      "soil": "Loamy",
+      "N": 45,
+      "P": 21,
+      "K": 93,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Faridabad",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 28.408,
+      "lng": 77.318,
+      "soil": "Loamy",
+      "N": 45,
+      "P": 18,
+      "K": 94,
+      "ph": 7.6,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Yamunanagar",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 30.13,
+      "lng": 77.267,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 21,
+      "K": 96,
+      "ph": 7.8,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Kurukshetra",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 29.969,
+      "lng": 76.878,
+      "soil": "Loamy",
+      "N": 47,
+      "P": 16,
+      "K": 94,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Sirsa",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 29.534,
+      "lng": 75.028,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 18,
+      "K": 94,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Bhiwani",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 28.793,
+      "lng": 76.132,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 21,
+      "K": 91,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Jind",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 29.316,
+      "lng": 76.315,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 19,
+      "K": 86,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Kaithal",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 29.802,
+      "lng": 76.4,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 17,
+      "K": 87,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Rewari",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 28.199,
+      "lng": 76.619,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 17,
+      "K": 94,
+      "ph": 7.6,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Palwal",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 28.144,
+      "lng": 77.326,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 15,
+      "K": 85,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Fatehabad",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 29.515,
+      "lng": 75.456,
+      "soil": "Loamy",
+      "N": 47,
+      "P": 20,
+      "K": 96,
+      "ph": 7.8,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Jhajjar",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 28.606,
+      "lng": 76.656,
+      "soil": "Loamy",
+      "N": 45,
+      "P": 20,
+      "K": 96,
+      "ph": 7.6,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Panchkula",
+      "state": "Haryana",
+      "zone": "North",
+      "lat": 30.695,
+      "lng": 76.854,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 17,
+      "K": 96,
+      "ph": 7.7,
+      "crops": [
+        "wheat",
+        "mustard",
+        "rice"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Noida",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.536,
+      "lng": 77.391,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 16,
+      "K": 86,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.474,
+      "lng": 77.504,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 20,
+      "K": 91,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dadri",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.552,
+      "lng": 77.554,
+      "soil": "Loamy",
+      "N": 45,
+      "P": 16,
+      "K": 92,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Jewar",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.122,
+      "lng": 77.557,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 16,
+      "K": 87,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.67,
+      "lng": 77.454,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 17,
+      "K": 96,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Hapur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.73,
+      "lng": 77.776,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 16,
+      "K": 94,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Khurja",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.253,
+      "lng": 77.855,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 19,
+      "K": 91,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.407,
+      "lng": 77.849,
+      "soil": "Loamy",
+      "N": 45,
+      "P": 20,
+      "K": 90,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sikandrabad",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.451,
+      "lng": 77.696,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 17,
+      "K": 92,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Modinagar",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.831,
+      "lng": 77.578,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 19,
+      "K": 93,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Aligarh",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.897,
+      "lng": 78.088,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 18,
+      "K": 96,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Mathura",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.492,
+      "lng": 77.674,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 16,
+      "K": 96,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Moradabad",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.838,
+      "lng": 78.737,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 17,
+      "K": 96,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Saharanpur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 29.968,
+      "lng": 77.551,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 17,
+      "K": 94,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Muzaffarnagar",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 29.473,
+      "lng": 77.704,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 20,
+      "K": 86,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Shahjahanpur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.881,
+      "lng": 79.911,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 21,
+      "K": 86,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ayodhya",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.792,
+      "lng": 82.2,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 20,
+      "K": 93,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sultanpur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.264,
+      "lng": 82.073,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 16,
+      "K": 88,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Azamgarh",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.068,
+      "lng": 83.184,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 21,
+      "K": 94,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Jaunpur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.746,
+      "lng": 82.684,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 21,
+      "K": 89,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Mirzapur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.134,
+      "lng": 82.564,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 19,
+      "K": 89,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sitapur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.57,
+      "lng": 80.683,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 17,
+      "K": 92,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Hardoi",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.395,
+      "lng": 80.131,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 19,
+      "K": 90,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Rae Bareli",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.231,
+      "lng": 81.233,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 15,
+      "K": 95,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Unnao",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.547,
+      "lng": 80.488,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 17,
+      "K": 95,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Etawah",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.786,
+      "lng": 79.021,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 15,
+      "K": 93,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Firozabad",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.159,
+      "lng": 78.395,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 19,
+      "K": 93,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Budaun",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.037,
+      "lng": 79.12,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 20,
+      "K": 98,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Pilibhit",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.632,
+      "lng": 79.805,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 17,
+      "K": 91,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bijnor",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 29.373,
+      "lng": 78.136,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 18,
+      "K": 90,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Rampur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.789,
+      "lng": 79.025,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 16,
+      "K": 96,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Faizabad",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.773,
+      "lng": 82.146,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 17,
+      "K": 95,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Gonda",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.134,
+      "lng": 81.961,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 21,
+      "K": 97,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bahraich",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.574,
+      "lng": 81.595,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 17,
+      "K": 95,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Basti",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.814,
+      "lng": 82.763,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 17,
+      "K": 94,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Deoria",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.502,
+      "lng": 83.779,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 16,
+      "K": 87,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Gorakhpur Town",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 26.76,
+      "lng": 83.373,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 18,
+      "K": 88,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ballia",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.759,
+      "lng": 84.149,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 15,
+      "K": 98,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ghazipur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.584,
+      "lng": 83.581,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 17,
+      "K": 86,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Fatehpur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.93,
+      "lng": 80.813,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 20,
+      "K": 88,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Banda",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.476,
+      "lng": 80.339,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 16,
+      "K": 91,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Lalitpur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 24.688,
+      "lng": 78.418,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 20,
+      "K": 89,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Orai",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.99,
+      "lng": 79.45,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 18,
+      "K": 94,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Etah",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.559,
+      "lng": 78.662,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 16,
+      "K": 98,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Hathras",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.597,
+      "lng": 78.052,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 16,
+      "K": 89,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Mainpuri",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.236,
+      "lng": 79.025,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 19,
+      "K": 94,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Farrukhabad",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.391,
+      "lng": 79.581,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 17,
+      "K": 86,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kannauj",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.054,
+      "lng": 79.918,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 20,
+      "K": 86,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Shamli",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 29.45,
+      "lng": 77.31,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 19,
+      "K": 97,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Baghpat",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.944,
+      "lng": 77.218,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 17,
+      "K": 95,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Amroha",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.904,
+      "lng": 78.468,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 20,
+      "K": 91,
+      "ph": 7.5,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sambhal",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 28.585,
+      "lng": 78.567,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 18,
+      "K": 96,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Lakhimpur",
+      "state": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 27.949,
+      "lng": 80.782,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 18,
+      "K": 94,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "rice",
+        "lentil"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Haridwar",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 29.945,
+      "lng": 78.164,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 19,
+      "K": 74,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Roorkee",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 29.854,
+      "lng": 77.888,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 19,
+      "K": 74,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Haldwani",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 29.219,
+      "lng": 79.513,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 16,
+      "K": 77,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Almora",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 29.597,
+      "lng": 79.659,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 15,
+      "K": 81,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Pithoragarh",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 29.583,
+      "lng": 80.219,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 17,
+      "K": 76,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Rishikesh",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 30.087,
+      "lng": 78.268,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 13,
+      "K": 77,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Kotdwar",
+      "state": "Uttarakhand",
+      "zone": "North",
+      "lat": 29.747,
+      "lng": 78.522,
+      "soil": "Loamy",
+      "N": 35,
+      "P": 17,
+      "K": 79,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Mandi",
+      "state": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 31.708,
+      "lng": 76.932,
+      "soil": "Loamy",
+      "N": 31,
+      "P": 19,
+      "K": 80,
+      "ph": 6.4,
+      "crops": [
+        "maize",
+        "wheat",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Solan",
+      "state": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 30.905,
+      "lng": 77.097,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 18,
+      "K": 74,
+      "ph": 6.4,
+      "crops": [
+        "maize",
+        "wheat",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Una",
+      "state": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 31.468,
+      "lng": 76.271,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 18,
+      "K": 78,
+      "ph": 6.2,
+      "crops": [
+        "maize",
+        "wheat",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bilaspur Himachal",
+      "state": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 31.341,
+      "lng": 76.756,
+      "soil": "Loamy",
+      "N": 29,
+      "P": 18,
+      "K": 78,
+      "ph": 6.2,
+      "crops": [
+        "maize",
+        "wheat",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Chamba",
+      "state": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 32.553,
+      "lng": 76.126,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 18,
+      "K": 72,
+      "ph": 6.2,
+      "crops": [
+        "maize",
+        "wheat",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kullu",
+      "state": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 31.957,
+      "lng": 77.11,
+      "soil": "Loamy",
+      "N": 31,
+      "P": 13,
+      "K": 77,
+      "ph": 6.5,
+      "crops": [
+        "maize",
+        "wheat",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Hamirpur Himachal",
+      "state": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 31.687,
+      "lng": 76.521,
+      "soil": "Loamy",
+      "N": 35,
+      "P": 17,
+      "K": 71,
+      "ph": 6.3,
+      "crops": [
+        "maize",
+        "wheat",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Anantnag",
+      "state": "Jammu and Kashmir",
+      "zone": "North",
+      "lat": 33.731,
+      "lng": 75.148,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 16,
+      "K": 75,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "maize",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Baramulla",
+      "state": "Jammu and Kashmir",
+      "zone": "North",
+      "lat": 34.198,
+      "lng": 74.364,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 16,
+      "K": 76,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "maize",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Udhampur",
+      "state": "Jammu and Kashmir",
+      "zone": "North",
+      "lat": 32.916,
+      "lng": 75.142,
+      "soil": "Loamy",
+      "N": 31,
+      "P": 18,
+      "K": 79,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "maize",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kathua",
+      "state": "Jammu and Kashmir",
+      "zone": "North",
+      "lat": 32.37,
+      "lng": 75.517,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 17,
+      "K": 81,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "maize",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Rajouri",
+      "state": "Jammu and Kashmir",
+      "zone": "North",
+      "lat": 33.376,
+      "lng": 74.309,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 17,
+      "K": 77,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "maize",
+        "apple"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ajmer",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 26.449,
+      "lng": 74.639,
+      "soil": "Sandy",
+      "N": 24,
+      "P": 14,
+      "K": 66,
+      "ph": 8.1,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Bhilwara",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 25.347,
+      "lng": 74.64,
+      "soil": "Sandy",
+      "N": 24,
+      "P": 14,
+      "K": 69,
+      "ph": 8.1,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Chittorgarh",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 24.888,
+      "lng": 74.627,
+      "soil": "Sandy",
+      "N": 32,
+      "P": 12,
+      "K": 72,
+      "ph": 7.7,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Sikar",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 27.609,
+      "lng": 75.14,
+      "soil": "Sandy",
+      "N": 26,
+      "P": 11,
+      "K": 64,
+      "ph": 7.7,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Jhunjhunu",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 28.128,
+      "lng": 75.398,
+      "soil": "Sandy",
+      "N": 29,
+      "P": 9,
+      "K": 62,
+      "ph": 8.0,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Bharatpur",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 27.217,
+      "lng": 77.49,
+      "soil": "Sandy",
+      "N": 25,
+      "P": 15,
+      "K": 66,
+      "ph": 7.8,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Tonk",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 26.166,
+      "lng": 75.789,
+      "soil": "Sandy",
+      "N": 31,
+      "P": 15,
+      "K": 74,
+      "ph": 7.8,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Pali",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 25.772,
+      "lng": 73.323,
+      "soil": "Sandy",
+      "N": 27,
+      "P": 14,
+      "K": 65,
+      "ph": 8.1,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Nagaur",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 27.202,
+      "lng": 73.734,
+      "soil": "Sandy",
+      "N": 27,
+      "P": 13,
+      "K": 73,
+      "ph": 7.7,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Barmer",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 25.746,
+      "lng": 71.392,
+      "soil": "Sandy",
+      "N": 31,
+      "P": 15,
+      "K": 68,
+      "ph": 7.7,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Jaisalmer",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 26.915,
+      "lng": 70.908,
+      "soil": "Sandy",
+      "N": 26,
+      "P": 12,
+      "K": 62,
+      "ph": 8.1,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Sawai Madhopur",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 26.023,
+      "lng": 76.346,
+      "soil": "Sandy",
+      "N": 30,
+      "P": 9,
+      "K": 65,
+      "ph": 8.1,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Hanumangarh",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 29.582,
+      "lng": 74.329,
+      "soil": "Sandy",
+      "N": 29,
+      "P": 12,
+      "K": 64,
+      "ph": 8.1,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Churu",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 28.292,
+      "lng": 74.967,
+      "soil": "Sandy",
+      "N": 30,
+      "P": 10,
+      "K": 64,
+      "ph": 8.0,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Dausa",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 26.889,
+      "lng": 76.335,
+      "soil": "Sandy",
+      "N": 32,
+      "P": 13,
+      "K": 65,
+      "ph": 8.0,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Bundi",
+      "state": "Rajasthan",
+      "zone": "North",
+      "lat": 25.431,
+      "lng": 75.648,
+      "soil": "Sandy",
+      "N": 27,
+      "P": 10,
+      "K": 69,
+      "ph": 7.9,
+      "crops": [
+        "mustard",
+        "millet",
+        "pulses"
+      ],
+      "season": "Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Darbhanga",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 26.154,
+      "lng": 85.892,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 21,
+      "K": 89,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Begusarai",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.418,
+      "lng": 86.13,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 20,
+      "K": 90,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Muzaffarpur Town",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 26.121,
+      "lng": 85.391,
+      "soil": "Loamy",
+      "N": 45,
+      "P": 18,
+      "K": 87,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Chapra",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.78,
+      "lng": 84.747,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 18,
+      "K": 91,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Siwan",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 26.221,
+      "lng": 84.356,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 18,
+      "K": 92,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Motihari",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 26.65,
+      "lng": 84.917,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 18,
+      "K": 82,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Bettiah",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 26.802,
+      "lng": 84.503,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 20,
+      "K": 88,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Samastipur",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.863,
+      "lng": 85.781,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 16,
+      "K": 84,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Madhubani",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 26.347,
+      "lng": 86.072,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 17,
+      "K": 93,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Sitamarhi",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 26.593,
+      "lng": 85.491,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 21,
+      "K": 92,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Hajipur",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.685,
+      "lng": 85.209,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 17,
+      "K": 93,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Sasaram",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 24.95,
+      "lng": 84.032,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 20,
+      "K": 82,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Katihar",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.539,
+      "lng": 87.571,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 16,
+      "K": 91,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Saharsa",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.883,
+      "lng": 86.599,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 15,
+      "K": 90,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Munger",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.376,
+      "lng": 86.473,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 21,
+      "K": 83,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Arrah",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 25.556,
+      "lng": 84.663,
+      "soil": "Loamy",
+      "N": 46,
+      "P": 19,
+      "K": 85,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Gopalganj",
+      "state": "Bihar",
+      "zone": "East",
+      "lat": 26.467,
+      "lng": 84.44,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 20,
+      "K": 90,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "wheat",
+        "maize"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Howrah",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 22.595,
+      "lng": 88.264,
+      "soil": "Clay",
+      "N": 47,
+      "P": 18,
+      "K": 98,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Siliguri",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 26.727,
+      "lng": 88.395,
+      "soil": "Clay",
+      "N": 45,
+      "P": 17,
+      "K": 100,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Asansol",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 23.674,
+      "lng": 86.952,
+      "soil": "Clay",
+      "N": 43,
+      "P": 17,
+      "K": 98,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Durgapur",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 23.52,
+      "lng": 87.312,
+      "soil": "Clay",
+      "N": 47,
+      "P": 19,
+      "K": 89,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kharagpur",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 22.346,
+      "lng": 87.232,
+      "soil": "Clay",
+      "N": 48,
+      "P": 19,
+      "K": 89,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Baharampur",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 24.1,
+      "lng": 88.25,
+      "soil": "Clay",
+      "N": 43,
+      "P": 22,
+      "K": 92,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Krishnanagar",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 23.401,
+      "lng": 88.501,
+      "soil": "Clay",
+      "N": 50,
+      "P": 19,
+      "K": 98,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Jalpaiguri",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 26.521,
+      "lng": 88.72,
+      "soil": "Clay",
+      "N": 48,
+      "P": 20,
+      "K": 97,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Cooch Behar",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 26.324,
+      "lng": 89.451,
+      "soil": "Clay",
+      "N": 49,
+      "P": 22,
+      "K": 97,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bankura",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 23.232,
+      "lng": 87.078,
+      "soil": "Clay",
+      "N": 48,
+      "P": 18,
+      "K": 98,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Purulia",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 23.332,
+      "lng": 86.365,
+      "soil": "Clay",
+      "N": 42,
+      "P": 20,
+      "K": 89,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Haldia",
+      "state": "West Bengal",
+      "zone": "East",
+      "lat": 22.066,
+      "lng": 88.07,
+      "soil": "Clay",
+      "N": 45,
+      "P": 22,
+      "K": 99,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "jute",
+        "vegetables"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Jamshedpur",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 22.805,
+      "lng": 86.203,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 11,
+      "K": 70,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "maize",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bokaro",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 23.669,
+      "lng": 86.151,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 15,
+      "K": 75,
+      "ph": 6.0,
+      "crops": [
+        "rice",
+        "maize",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Hazaribagh",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 23.992,
+      "lng": 85.361,
+      "soil": "Loamy",
+      "N": 31,
+      "P": 12,
+      "K": 75,
+      "ph": 6.3,
+      "crops": [
+        "rice",
+        "maize",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Deoghar",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 24.482,
+      "lng": 86.695,
+      "soil": "Loamy",
+      "N": 35,
+      "P": 16,
+      "K": 76,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "maize",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Giridih",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 24.191,
+      "lng": 86.308,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 15,
+      "K": 69,
+      "ph": 6.3,
+      "crops": [
+        "rice",
+        "maize",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dumka",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 24.267,
+      "lng": 87.249,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 12,
+      "K": 71,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "maize",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Daltonganj",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 24.039,
+      "lng": 84.07,
+      "soil": "Loamy",
+      "N": 30,
+      "P": 15,
+      "K": 66,
+      "ph": 6.0,
+      "crops": [
+        "rice",
+        "maize",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Chaibasa",
+      "state": "Jharkhand",
+      "zone": "East",
+      "lat": 22.55,
+      "lng": 85.802,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 14,
+      "K": 67,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "maize",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Berhampur",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 19.315,
+      "lng": 84.794,
+      "soil": "Loamy",
+      "N": 43,
+      "P": 16,
+      "K": 75,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Rourkela",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 22.26,
+      "lng": 84.853,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 17,
+      "K": 82,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Puri",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 19.813,
+      "lng": 85.831,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 16,
+      "K": 77,
+      "ph": 6.1,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Balangir",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 20.708,
+      "lng": 83.49,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 15,
+      "K": 84,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Koraput",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 18.812,
+      "lng": 82.711,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 13,
+      "K": 78,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Jharsuguda",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 21.855,
+      "lng": 84.006,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 15,
+      "K": 75,
+      "ph": 6.3,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Angul",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 20.84,
+      "lng": 85.102,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 19,
+      "K": 86,
+      "ph": 6.3,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Baripada",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 21.933,
+      "lng": 86.732,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 17,
+      "K": 85,
+      "ph": 6.3,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Keonjhar",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 21.629,
+      "lng": 85.581,
+      "soil": "Loamy",
+      "N": 44,
+      "P": 19,
+      "K": 76,
+      "ph": 6.3,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bhadrak",
+      "state": "Odisha",
+      "zone": "East",
+      "lat": 21.054,
+      "lng": 86.496,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 19,
+      "K": 86,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Silchar",
+      "state": "Assam",
+      "zone": "East",
+      "lat": 24.833,
+      "lng": 92.779,
+      "soil": "Clay",
+      "N": 42,
+      "P": 15,
+      "K": 79,
+      "ph": 5.7,
+      "crops": [
+        "rice",
+        "tea"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Tezpur",
+      "state": "Assam",
+      "zone": "East",
+      "lat": 26.633,
+      "lng": 92.8,
+      "soil": "Clay",
+      "N": 36,
+      "P": 18,
+      "K": 71,
+      "ph": 5.7,
+      "crops": [
+        "rice",
+        "tea"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Nagaon",
+      "state": "Assam",
+      "zone": "East",
+      "lat": 26.348,
+      "lng": 92.684,
+      "soil": "Clay",
+      "N": 36,
+      "P": 13,
+      "K": 69,
+      "ph": 5.3,
+      "crops": [
+        "rice",
+        "tea"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Tinsukia",
+      "state": "Assam",
+      "zone": "East",
+      "lat": 27.493,
+      "lng": 95.36,
+      "soil": "Clay",
+      "N": 37,
+      "P": 12,
+      "K": 79,
+      "ph": 5.7,
+      "crops": [
+        "rice",
+        "tea"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bongaigaon",
+      "state": "Assam",
+      "zone": "East",
+      "lat": 26.477,
+      "lng": 90.558,
+      "soil": "Clay",
+      "N": 39,
+      "P": 17,
+      "K": 70,
+      "ph": 5.5,
+      "crops": [
+        "rice",
+        "tea"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sivasagar",
+      "state": "Assam",
+      "zone": "East",
+      "lat": 26.984,
+      "lng": 94.638,
+      "soil": "Clay",
+      "N": 36,
+      "P": 17,
+      "K": 77,
+      "ph": 5.6,
+      "crops": [
+        "rice",
+        "tea"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ujjain",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.176,
+      "lng": 75.788,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 15,
+      "K": 73,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dewas",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 22.967,
+      "lng": 76.053,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 18,
+      "K": 81,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ratlam",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.332,
+      "lng": 75.037,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 15,
+      "K": 73,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Mandsaur",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 24.076,
+      "lng": 75.069,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 16,
+      "K": 83,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Chhindwara",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 22.057,
+      "lng": 78.939,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 17,
+      "K": 78,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Satna",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 24.6,
+      "lng": 80.832,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 21,
+      "K": 84,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Rewa",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 24.537,
+      "lng": 81.304,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 15,
+      "K": 84,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Katni",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.834,
+      "lng": 80.394,
+      "soil": "Loamy",
+      "N": 42,
+      "P": 21,
+      "K": 84,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Khandwa",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 21.825,
+      "lng": 76.352,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 17,
+      "K": 75,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Khargone",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 21.823,
+      "lng": 75.614,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 18,
+      "K": 84,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Vidisha",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.525,
+      "lng": 77.808,
+      "soil": "Loamy",
+      "N": 35,
+      "P": 20,
+      "K": 72,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sehore",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.2,
+      "lng": 77.085,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 20,
+      "K": 78,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Shivpuri",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 25.424,
+      "lng": 77.662,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 19,
+      "K": 75,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Morena",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 26.494,
+      "lng": 77.994,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 16,
+      "K": 74,
+      "ph": 7.4,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Datia",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 25.665,
+      "lng": 78.46,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 15,
+      "K": 77,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Chhatarpur",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 24.917,
+      "lng": 79.589,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 21,
+      "K": 77,
+      "ph": 7.1,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Damoh",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.833,
+      "lng": 79.442,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 21,
+      "K": 83,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Neemuch",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 24.476,
+      "lng": 74.862,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 17,
+      "K": 82,
+      "ph": 7.3,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dhar",
+      "state": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 22.598,
+      "lng": 75.304,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 20,
+      "K": 81,
+      "ph": 7.2,
+      "crops": [
+        "wheat",
+        "soybean",
+        "chickpea"
+      ],
+      "season": "Rabi/Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Jagdalpur",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 19.074,
+      "lng": 82.021,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 18,
+      "K": 70,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ambikapur",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 23.119,
+      "lng": 83.196,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 13,
+      "K": 72,
+      "ph": 6.6,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Korba",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 22.359,
+      "lng": 82.75,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 18,
+      "K": 72,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Raigarh",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 21.897,
+      "lng": 83.395,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 15,
+      "K": 71,
+      "ph": 6.4,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Rajnandgaon",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 21.097,
+      "lng": 81.03,
+      "soil": "Loamy",
+      "N": 41,
+      "P": 16,
+      "K": 76,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dhamtari",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 20.707,
+      "lng": 81.549,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 18,
+      "K": 75,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Mahasamund",
+      "state": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 21.108,
+      "lng": 82.098,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 14,
+      "K": 80,
+      "ph": 6.5,
+      "crops": [
+        "rice",
+        "pulses"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Thane",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 19.218,
+      "lng": 72.978,
+      "soil": "Clay",
+      "N": 33,
+      "P": 19,
+      "K": 71,
+      "ph": 7.0,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Nashik City",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 19.998,
+      "lng": 73.79,
+      "soil": "Clay",
+      "N": 35,
+      "P": 17,
+      "K": 76,
+      "ph": 7.1,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kolhapur City",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 16.705,
+      "lng": 74.243,
+      "soil": "Clay",
+      "N": 33,
+      "P": 18,
+      "K": 74,
+      "ph": 7.3,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 17.66,
+      "lng": 75.906,
+      "soil": "Clay",
+      "N": 36,
+      "P": 13,
+      "K": 70,
+      "ph": 7.1,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ahmednagar",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 19.095,
+      "lng": 74.748,
+      "soil": "Clay",
+      "N": 33,
+      "P": 19,
+      "K": 68,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Jalgaon",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 21.007,
+      "lng": 75.563,
+      "soil": "Clay",
+      "N": 39,
+      "P": 13,
+      "K": 67,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dhule",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 20.904,
+      "lng": 74.775,
+      "soil": "Clay",
+      "N": 35,
+      "P": 14,
+      "K": 73,
+      "ph": 7.2,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Satara",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 17.68,
+      "lng": 74.019,
+      "soil": "Clay",
+      "N": 33,
+      "P": 15,
+      "K": 75,
+      "ph": 7.3,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sangli",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 16.853,
+      "lng": 74.581,
+      "soil": "Clay",
+      "N": 35,
+      "P": 17,
+      "K": 77,
+      "ph": 7.0,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Latur",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 18.408,
+      "lng": 76.56,
+      "soil": "Clay",
+      "N": 39,
+      "P": 15,
+      "K": 69,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Nanded",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 19.138,
+      "lng": 77.321,
+      "soil": "Clay",
+      "N": 33,
+      "P": 18,
+      "K": 70,
+      "ph": 7.0,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Akola",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 20.7,
+      "lng": 77.008,
+      "soil": "Clay",
+      "N": 34,
+      "P": 18,
+      "K": 76,
+      "ph": 7.2,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Yavatmal",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 20.389,
+      "lng": 78.132,
+      "soil": "Clay",
+      "N": 35,
+      "P": 18,
+      "K": 68,
+      "ph": 7.0,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Chandrapur",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 19.961,
+      "lng": 79.296,
+      "soil": "Clay",
+      "N": 38,
+      "P": 16,
+      "K": 74,
+      "ph": 7.1,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ratnagiri",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 16.99,
+      "lng": 73.312,
+      "soil": "Clay",
+      "N": 34,
+      "P": 18,
+      "K": 75,
+      "ph": 7.3,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Alibag",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 18.641,
+      "lng": 72.872,
+      "soil": "Clay",
+      "N": 32,
+      "P": 15,
+      "K": 73,
+      "ph": 7.0,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Baramati",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 18.151,
+      "lng": 74.577,
+      "soil": "Clay",
+      "N": 32,
+      "P": 16,
+      "K": 77,
+      "ph": 7.0,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Junnar",
+      "state": "Maharashtra",
+      "zone": "Central",
+      "lat": 19.208,
+      "lng": 73.875,
+      "soil": "Clay",
+      "N": 33,
+      "P": 19,
+      "K": 67,
+      "ph": 7.1,
+      "crops": [
+        "cotton",
+        "soybean",
+        "jowar"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bhavnagar",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 21.765,
+      "lng": 72.152,
+      "soil": "Clay",
+      "N": 36,
+      "P": 15,
+      "K": 76,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Jamnagar",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 22.47,
+      "lng": 70.058,
+      "soil": "Clay",
+      "N": 30,
+      "P": 15,
+      "K": 75,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Gandhinagar",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 23.216,
+      "lng": 72.637,
+      "soil": "Clay",
+      "N": 31,
+      "P": 14,
+      "K": 70,
+      "ph": 7.6,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Anand",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 22.564,
+      "lng": 72.929,
+      "soil": "Clay",
+      "N": 35,
+      "P": 18,
+      "K": 68,
+      "ph": 7.5,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Mehsana",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 23.588,
+      "lng": 72.369,
+      "soil": "Clay",
+      "N": 38,
+      "P": 13,
+      "K": 66,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Bharuch",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 21.705,
+      "lng": 72.995,
+      "soil": "Clay",
+      "N": 38,
+      "P": 13,
+      "K": 66,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Navsari",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 20.946,
+      "lng": 72.952,
+      "soil": "Clay",
+      "N": 34,
+      "P": 15,
+      "K": 76,
+      "ph": 7.7,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Valsad",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 20.599,
+      "lng": 72.934,
+      "soil": "Clay",
+      "N": 30,
+      "P": 13,
+      "K": 72,
+      "ph": 7.6,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Palanpur",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 24.172,
+      "lng": 72.438,
+      "soil": "Clay",
+      "N": 37,
+      "P": 14,
+      "K": 70,
+      "ph": 7.8,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Godhra",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 22.776,
+      "lng": 73.614,
+      "soil": "Clay",
+      "N": 33,
+      "P": 14,
+      "K": 66,
+      "ph": 7.5,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Dahod",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 22.834,
+      "lng": 74.256,
+      "soil": "Clay",
+      "N": 33,
+      "P": 16,
+      "K": 66,
+      "ph": 7.8,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Amreli",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 21.603,
+      "lng": 71.221,
+      "soil": "Clay",
+      "N": 38,
+      "P": 12,
+      "K": 71,
+      "ph": 7.5,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Porbandar",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 21.642,
+      "lng": 69.609,
+      "soil": "Clay",
+      "N": 33,
+      "P": 16,
+      "K": 65,
+      "ph": 7.4,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Morbi",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 22.812,
+      "lng": 70.823,
+      "soil": "Clay",
+      "N": 31,
+      "P": 13,
+      "K": 65,
+      "ph": 7.8,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Surendranagar",
+      "state": "Gujarat",
+      "zone": "Central",
+      "lat": 22.728,
+      "lng": 71.637,
+      "soil": "Clay",
+      "N": 37,
+      "P": 18,
+      "K": 72,
+      "ph": 7.5,
+      "crops": [
+        "cotton",
+        "groundnut",
+        "wheat"
+      ],
+      "season": "Kharif/Rabi",
+      "aliases": []
+    },
+    {
+      "district": "Mangaluru",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 12.914,
+      "lng": 74.856,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 15,
+      "K": 71,
+      "ph": 6.8,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Udupi",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 13.341,
+      "lng": 74.742,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 14,
+      "K": 66,
+      "ph": 6.7,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Hassan",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 13.007,
+      "lng": 76.096,
+      "soil": "Loamy",
+      "N": 35,
+      "P": 17,
+      "K": 75,
+      "ph": 6.4,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Mandya",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 12.522,
+      "lng": 76.895,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 13,
+      "K": 71,
+      "ph": 6.5,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Tumakuru",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 13.338,
+      "lng": 77.101,
+      "soil": "Loamy",
+      "N": 39,
+      "P": 14,
+      "K": 71,
+      "ph": 6.5,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Davangere",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 14.465,
+      "lng": 75.924,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 19,
+      "K": 66,
+      "ph": 6.7,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ballari",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 15.14,
+      "lng": 76.921,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 15,
+      "K": 73,
+      "ph": 6.8,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Vijayapura",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 16.83,
+      "lng": 75.71,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 15,
+      "K": 66,
+      "ph": 6.5,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kalaburagi",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 17.329,
+      "lng": 76.834,
+      "soil": "Loamy",
+      "N": 35,
+      "P": 16,
+      "K": 64,
+      "ph": 6.4,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Bidar",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 17.91,
+      "lng": 77.52,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 19,
+      "K": 68,
+      "ph": 6.5,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Chikkamagaluru",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 13.316,
+      "lng": 75.772,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 13,
+      "K": 73,
+      "ph": 6.7,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Madikeri",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 12.424,
+      "lng": 75.738,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 14,
+      "K": 67,
+      "ph": 6.4,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Karwar",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 14.814,
+      "lng": 74.13,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 13,
+      "K": 72,
+      "ph": 6.4,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Raichur Town",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 16.207,
+      "lng": 77.356,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 18,
+      "K": 71,
+      "ph": 6.7,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Hubballi",
+      "state": "Karnataka",
+      "zone": "South",
+      "lat": 15.365,
+      "lng": 75.124,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 18,
+      "K": 64,
+      "ph": 6.6,
+      "crops": [
+        "ragi",
+        "maize",
+        "rice"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 10.79,
+      "lng": 78.705,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 18,
+      "K": 73,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Tirunelveli",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 8.713,
+      "lng": 77.756,
+      "soil": "Loamy",
+      "N": 31,
+      "P": 14,
+      "K": 66,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Vellore",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 12.917,
+      "lng": 79.132,
+      "soil": "Loamy",
+      "N": 30,
+      "P": 13,
+      "K": 66,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Erode",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 11.341,
+      "lng": 77.717,
+      "soil": "Loamy",
+      "N": 30,
+      "P": 17,
+      "K": 66,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Tiruppur",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 11.108,
+      "lng": 77.341,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 12,
+      "K": 69,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Thoothukudi",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 8.764,
+      "lng": 78.134,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 12,
+      "K": 71,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Nagercoil",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 8.178,
+      "lng": 77.434,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 18,
+      "K": 71,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Cuddalore",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 11.748,
+      "lng": 79.771,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 17,
+      "K": 70,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kanchipuram",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 12.835,
+      "lng": 79.704,
+      "soil": "Loamy",
+      "N": 35,
+      "P": 17,
+      "K": 73,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Dindigul",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 10.362,
+      "lng": 77.97,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 16,
+      "K": 62,
+      "ph": 6.7,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Karur",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 10.96,
+      "lng": 78.077,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 18,
+      "K": 62,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Namakkal",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 11.219,
+      "lng": 78.167,
+      "soil": "Loamy",
+      "N": 38,
+      "P": 14,
+      "K": 72,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Krishnagiri",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 12.519,
+      "lng": 78.214,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 18,
+      "K": 68,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ooty",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 11.406,
+      "lng": 76.693,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 12,
+      "K": 63,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Nagapattinam",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 10.767,
+      "lng": 79.845,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 17,
+      "K": 67,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Pudukkottai",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 10.383,
+      "lng": 78.821,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 16,
+      "K": 68,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Villupuram",
+      "state": "Tamil Nadu",
+      "zone": "South",
+      "lat": 11.94,
+      "lng": 79.486,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 14,
+      "K": 72,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "cotton",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kozhikode",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 11.259,
+      "lng": 75.78,
+      "soil": "Loamy",
+      "N": 28,
+      "P": 16,
+      "K": 67,
+      "ph": 5.5,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Kannur",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 11.874,
+      "lng": 75.37,
+      "soil": "Loamy",
+      "N": 30,
+      "P": 11,
+      "K": 66,
+      "ph": 5.7,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Kasaragod",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 12.5,
+      "lng": 74.99,
+      "soil": "Loamy",
+      "N": 28,
+      "P": 17,
+      "K": 66,
+      "ph": 5.8,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Malappuram",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 11.051,
+      "lng": 76.071,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 15,
+      "K": 67,
+      "ph": 5.9,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Kalpetta",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 11.61,
+      "lng": 76.082,
+      "soil": "Loamy",
+      "N": 31,
+      "P": 14,
+      "K": 70,
+      "ph": 5.6,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Kochi",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 9.931,
+      "lng": 76.267,
+      "soil": "Loamy",
+      "N": 36,
+      "P": 15,
+      "K": 67,
+      "ph": 5.8,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Kottayam",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 9.591,
+      "lng": 76.522,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 13,
+      "K": 64,
+      "ph": 5.6,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Kollam",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 8.893,
+      "lng": 76.614,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 17,
+      "K": 64,
+      "ph": 5.7,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Pathanamthitta",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 9.264,
+      "lng": 76.787,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 12,
+      "K": 75,
+      "ph": 5.8,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Painavu",
+      "state": "Kerala",
+      "zone": "South",
+      "lat": 9.849,
+      "lng": 76.97,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 14,
+      "K": 76,
+      "ph": 5.8,
+      "crops": [
+        "coconut",
+        "rice",
+        "banana"
+      ],
+      "season": "Annual",
+      "aliases": []
+    },
+    {
+      "district": "Kurnool",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 15.828,
+      "lng": 78.037,
+      "soil": "Loamy",
+      "N": 40,
+      "P": 17,
+      "K": 74,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "cotton",
+        "groundnut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kadapa",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 14.467,
+      "lng": 78.824,
+      "soil": "Loamy",
+      "N": 34,
+      "P": 17,
+      "K": 75,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "cotton",
+        "groundnut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Nellore",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 14.442,
+      "lng": 79.986,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 13,
+      "K": 75,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "cotton",
+        "groundnut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Ongole",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 15.506,
+      "lng": 80.049,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 16,
+      "K": 70,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "cotton",
+        "groundnut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Eluru",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 16.71,
+      "lng": 81.095,
+      "soil": "Loamy",
+      "N": 35,
+      "P": 13,
+      "K": 74,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "cotton",
+        "groundnut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 17.0,
+      "lng": 81.804,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 15,
+      "K": 69,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "cotton",
+        "groundnut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Kakinada",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 16.989,
+      "lng": 82.248,
+      "soil": "Loamy",
+      "N": 37,
+      "P": 17,
+      "K": 77,
+      "ph": 7.0,
+      "crops": [
+        "rice",
+        "cotton",
+        "groundnut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 18.294,
+      "lng": 83.893,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 14,
+      "K": 73,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "cotton",
+        "groundnut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Vizianagaram",
+      "state": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 18.107,
+      "lng": 83.396,
+      "soil": "Loamy",
+      "N": 32,
+      "P": 16,
+      "K": 76,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "cotton",
+        "groundnut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Khammam",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 17.247,
+      "lng": 80.151,
+      "soil": "Clay",
+      "N": 41,
+      "P": 13,
+      "K": 69,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Nalgonda",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 17.057,
+      "lng": 79.268,
+      "soil": "Clay",
+      "N": 37,
+      "P": 19,
+      "K": 69,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Mahabubnagar",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 16.748,
+      "lng": 77.985,
+      "soil": "Clay",
+      "N": 37,
+      "P": 18,
+      "K": 71,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Sangareddy",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 17.629,
+      "lng": 78.092,
+      "soil": "Clay",
+      "N": 34,
+      "P": 17,
+      "K": 70,
+      "ph": 6.8,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Siddipet",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 18.102,
+      "lng": 78.852,
+      "soil": "Clay",
+      "N": 37,
+      "P": 16,
+      "K": 74,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Adilabad",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 19.664,
+      "lng": 78.532,
+      "soil": "Clay",
+      "N": 39,
+      "P": 13,
+      "K": 74,
+      "ph": 7.2,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Nizamabad Town",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 18.672,
+      "lng": 78.094,
+      "soil": "Clay",
+      "N": 34,
+      "P": 14,
+      "K": 78,
+      "ph": 7.1,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Karimnagar Town",
+      "state": "Telangana",
+      "zone": "South",
+      "lat": 18.439,
+      "lng": 79.129,
+      "soil": "Clay",
+      "N": 35,
+      "P": 13,
+      "K": 79,
+      "ph": 6.9,
+      "crops": [
+        "rice",
+        "cotton",
+        "maize"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Margao",
+      "state": "Goa",
+      "zone": "South",
+      "lat": 15.273,
+      "lng": 73.958,
+      "soil": "Loamy",
+      "N": 33,
+      "P": 15,
+      "K": 62,
+      "ph": 6.1,
+      "crops": [
+        "rice",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Vasco da Gama",
+      "state": "Goa",
+      "zone": "South",
+      "lat": 15.398,
+      "lng": 73.811,
+      "soil": "Loamy",
+      "N": 28,
+      "P": 13,
+      "K": 60,
+      "ph": 6.0,
+      "crops": [
+        "rice",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    },
+    {
+      "district": "Mapusa",
+      "state": "Goa",
+      "zone": "South",
+      "lat": 15.592,
+      "lng": 73.809,
+      "soil": "Loamy",
+      "N": 31,
+      "P": 17,
+      "K": 65,
+      "ph": 6.2,
+      "crops": [
+        "rice",
+        "coconut"
+      ],
+      "season": "Kharif",
+      "aliases": []
+    }
+  ]
+}

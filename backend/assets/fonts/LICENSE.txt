@@ -1,0 +1,2 @@
+DejaVu fonts: Bitstream Vera / Arev license (see upstream DejaVu).
+Noto Sans Devanagari: SIL Open Font License 1.1.

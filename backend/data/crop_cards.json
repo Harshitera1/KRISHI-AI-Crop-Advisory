@@ -1,0 +1,650 @@
+{
+  "crops": {
+    "rice": {
+      "season": "Kharif",
+      "yield_low": 3.5,
+      "yield_high": 6.0,
+      "yield_unit": "t/ha paddy",
+      "msp_inr_per_quintal": 2300,
+      "msp_note": "Paddy (common), 2024-25 CACP reference",
+      "states": [
+        "West Bengal",
+        "Uttar Pradesh",
+        "Punjab",
+        "Andhra Pradesh",
+        "Telangana",
+        "Odisha",
+        "Chhattisgarh",
+        "Bihar"
+      ],
+      "challenges": [
+        "Standing water and blast risk in humid weeks",
+        "Needs a reliable irrigation or monsoon window",
+        "Excess nitrogen delays maturity and invites pests"
+      ],
+      "training_profile": {
+        "N": 79.9,
+        "P": 47.6,
+        "K": 39.9,
+        "temperature": 23.7,
+        "humidity": 82.3,
+        "ph": 6.4,
+        "rainfall": 236.2
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "maize": {
+      "season": "Kharif/Rabi",
+      "yield_low": 2.5,
+      "yield_high": 5.5,
+      "yield_unit": "t/ha grain",
+      "msp_inr_per_quintal": 2225,
+      "msp_note": "Maize, 2024-25 CACP reference",
+      "states": [
+        "Karnataka",
+        "Madhya Pradesh",
+        "Bihar",
+        "Tamil Nadu",
+        "Maharashtra"
+      ],
+      "challenges": [
+        "Fall armyworm in the early whorl stage",
+        "Moisture stress at tasselling cuts grain set",
+        "Stored grain needs drying to avoid mould"
+      ],
+      "training_profile": {
+        "N": 77.8,
+        "P": 48.4,
+        "K": 19.8,
+        "temperature": 22.4,
+        "humidity": 65.1,
+        "ph": 6.2,
+        "rainfall": 84.8
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "chickpea": {
+      "season": "Rabi",
+      "yield_low": 0.8,
+      "yield_high": 1.6,
+      "yield_unit": "t/ha grain",
+      "msp_inr_per_quintal": 5440,
+      "msp_note": "Gram, 2024-25 CACP reference",
+      "states": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Rajasthan",
+        "Uttar Pradesh"
+      ],
+      "challenges": [
+        "Wilt and pod borer in warm dry spells",
+        "Waterlogging at sowing",
+        "Frost at flowering in the north"
+      ],
+      "training_profile": {
+        "N": 40.1,
+        "P": 67.8,
+        "K": 79.9,
+        "temperature": 18.9,
+        "humidity": 16.9,
+        "ph": 7.3,
+        "rainfall": 80.1
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "kidneybeans": {
+      "season": "Kharif/Rabi",
+      "yield_low": 1.0,
+      "yield_high": 1.8,
+      "yield_unit": "t/ha grain",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No separate CACP MSP. Local market price varies by grade.",
+      "states": [
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Jammu and Kashmir",
+        "Maharashtra"
+      ],
+      "challenges": [
+        "Cool-season crop, poor fit for hot plains",
+        "Anthracnose in wet weather",
+        "Needs well drained soil"
+      ],
+      "training_profile": {
+        "N": 20.8,
+        "P": 67.5,
+        "K": 20.1,
+        "temperature": 20.1,
+        "humidity": 21.6,
+        "ph": 5.7,
+        "rainfall": 105.9
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "pigeonpeas": {
+      "season": "Kharif",
+      "yield_low": 0.8,
+      "yield_high": 1.5,
+      "yield_unit": "t/ha grain",
+      "msp_inr_per_quintal": 7550,
+      "msp_note": "Tur (arhar), 2024-25 CACP reference",
+      "states": [
+        "Maharashtra",
+        "Karnataka",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Gujarat"
+      ],
+      "challenges": [
+        "Pod borer and wilt",
+        "Long duration ties up the field",
+        "Flower drop if rain fails at pod set"
+      ],
+      "training_profile": {
+        "N": 20.7,
+        "P": 67.7,
+        "K": 20.3,
+        "temperature": 27.7,
+        "humidity": 48.1,
+        "ph": 5.8,
+        "rainfall": 149.5
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "mothbeans": {
+      "season": "Kharif",
+      "yield_low": 0.4,
+      "yield_high": 0.8,
+      "yield_unit": "t/ha grain",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No separate CACP MSP. Treated as a dryland pulse in local markets.",
+      "states": [
+        "Rajasthan",
+        "Gujarat",
+        "Haryana",
+        "Maharashtra"
+      ],
+      "challenges": [
+        "Very low yield if the monsoon misses",
+        "Yellow mosaic in humid pockets",
+        "Poor price discovery outside dry districts"
+      ],
+      "training_profile": {
+        "N": 21.4,
+        "P": 48.0,
+        "K": 20.2,
+        "temperature": 28.2,
+        "humidity": 53.2,
+        "ph": 6.8,
+        "rainfall": 51.2
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "mungbean": {
+      "season": "Kharif/Summer",
+      "yield_low": 0.5,
+      "yield_high": 1.2,
+      "yield_unit": "t/ha grain",
+      "msp_inr_per_quintal": 8682,
+      "msp_note": "Moong, 2024-25 CACP reference",
+      "states": [
+        "Rajasthan",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Odisha",
+        "Bihar"
+      ],
+      "challenges": [
+        "Yellow mosaic virus",
+        "Short window before the next rain",
+        "Pod shattering if harvest is late"
+      ],
+      "training_profile": {
+        "N": 21.0,
+        "P": 47.3,
+        "K": 19.9,
+        "temperature": 28.5,
+        "humidity": 85.5,
+        "ph": 6.7,
+        "rainfall": 48.4
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "blackgram": {
+      "season": "Kharif",
+      "yield_low": 0.5,
+      "yield_high": 1.0,
+      "yield_unit": "t/ha grain",
+      "msp_inr_per_quintal": 7400,
+      "msp_note": "Urad, 2024-25 CACP reference",
+      "states": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Rajasthan"
+      ],
+      "challenges": [
+        "Yellow mosaic and powdery mildew",
+        "Waterlogging",
+        "Uneven maturity at harvest"
+      ],
+      "training_profile": {
+        "N": 40.0,
+        "P": 67.5,
+        "K": 19.2,
+        "temperature": 30.0,
+        "humidity": 65.1,
+        "ph": 7.1,
+        "rainfall": 67.9
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "lentil": {
+      "season": "Rabi",
+      "yield_low": 0.8,
+      "yield_high": 1.4,
+      "yield_unit": "t/ha grain",
+      "msp_inr_per_quintal": 6425,
+      "msp_note": "Masur, 2024-25 CACP reference",
+      "states": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Bihar",
+        "West Bengal"
+      ],
+      "challenges": [
+        "Wilt and rust",
+        "Late sowing after rice delays maturity into heat",
+        "Needs a firm seedbed after paddy"
+      ],
+      "training_profile": {
+        "N": 18.8,
+        "P": 68.4,
+        "K": 19.4,
+        "temperature": 24.5,
+        "humidity": 64.8,
+        "ph": 6.9,
+        "rainfall": 45.7
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "pomegranate": {
+      "season": "Annual",
+      "yield_low": 8.0,
+      "yield_high": 15.0,
+      "yield_unit": "t/ha fruit",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. Orchard price depends on grade and season.",
+      "states": [
+        "Maharashtra",
+        "Karnataka",
+        "Gujarat",
+        "Andhra Pradesh"
+      ],
+      "challenges": [
+        "Bacterial blight",
+        "Fruit cracking if irrigation swings",
+        "Several years before full bearing"
+      ],
+      "training_profile": {
+        "N": 18.9,
+        "P": 18.8,
+        "K": 40.2,
+        "temperature": 21.8,
+        "humidity": 90.1,
+        "ph": 6.4,
+        "rainfall": 107.5
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "banana": {
+      "season": "Annual",
+      "yield_low": 30.0,
+      "yield_high": 45.0,
+      "yield_unit": "t/ha fruit",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. Local wholesale price moves with supply.",
+      "states": [
+        "Tamil Nadu",
+        "Maharashtra",
+        "Gujarat",
+        "Andhra Pradesh"
+      ],
+      "challenges": [
+        "Wind lodging",
+        "Panama wilt and sigatoka",
+        "Needs steady moisture and mulch"
+      ],
+      "training_profile": {
+        "N": 100.2,
+        "P": 82.0,
+        "K": 50.0,
+        "temperature": 27.4,
+        "humidity": 80.4,
+        "ph": 6.0,
+        "rainfall": 104.6
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "mango": {
+      "season": "Annual",
+      "yield_low": 8.0,
+      "yield_high": 15.0,
+      "yield_unit": "t/ha fruit",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. Price is seasonal and variety-specific.",
+      "states": [
+        "Uttar Pradesh",
+        "Andhra Pradesh",
+        "Bihar",
+        "Karnataka",
+        "Gujarat"
+      ],
+      "challenges": [
+        "Alternate bearing",
+        "Hopper and powdery mildew at flowering",
+        "Storm loss of immature fruit"
+      ],
+      "training_profile": {
+        "N": 20.1,
+        "P": 27.2,
+        "K": 29.9,
+        "temperature": 31.2,
+        "humidity": 50.2,
+        "ph": 5.8,
+        "rainfall": 94.7
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "grapes": {
+      "season": "Annual",
+      "yield_low": 15.0,
+      "yield_high": 25.0,
+      "yield_unit": "t/ha fruit",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. Price depends on table or raisin grade.",
+      "states": [
+        "Maharashtra",
+        "Karnataka"
+      ],
+      "challenges": [
+        "Downy mildew in wet weather",
+        "High potassium demand, often above the form limit of 150",
+        "Needs trellis, pruning, and reliable water"
+      ],
+      "training_profile": {
+        "N": 23.2,
+        "P": 132.5,
+        "K": 200.1,
+        "temperature": 23.8,
+        "humidity": 81.9,
+        "ph": 6.0,
+        "rainfall": 69.6
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "watermelon": {
+      "season": "Summer",
+      "yield_low": 20.0,
+      "yield_high": 35.0,
+      "yield_unit": "t/ha fruit",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. A short-season market crop.",
+      "states": [
+        "Uttar Pradesh",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Maharashtra"
+      ],
+      "challenges": [
+        "Needs well drained sand and steady water",
+        "Fruit fly and mildew",
+        "A glut can collapse the local price"
+      ],
+      "training_profile": {
+        "N": 99.4,
+        "P": 17.0,
+        "K": 50.2,
+        "temperature": 25.6,
+        "humidity": 85.2,
+        "ph": 6.5,
+        "rainfall": 50.8
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "muskmelon": {
+      "season": "Summer",
+      "yield_low": 15.0,
+      "yield_high": 25.0,
+      "yield_unit": "t/ha fruit",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. A short-season market crop.",
+      "states": [
+        "Uttar Pradesh",
+        "Punjab",
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "challenges": [
+        "Very low rainfall fit, so irrigation is essential",
+        "Powdery mildew",
+        "Short shelf life after harvest"
+      ],
+      "training_profile": {
+        "N": 100.3,
+        "P": 17.7,
+        "K": 50.1,
+        "temperature": 28.7,
+        "humidity": 92.3,
+        "ph": 6.4,
+        "rainfall": 24.7
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "apple": {
+      "season": "Annual",
+      "yield_low": 8.0,
+      "yield_high": 15.0,
+      "yield_unit": "t/ha fruit",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. A temperate orchard crop.",
+      "states": [
+        "Jammu and Kashmir",
+        "Himachal Pradesh",
+        "Uttarakhand"
+      ],
+      "challenges": [
+        "Needs winter chill, a poor fit for the plains",
+        "Training-table potassium is often above 150, which this form cannot send",
+        "Scab and hail",
+        "Several years before bearing"
+      ],
+      "training_profile": {
+        "N": 20.8,
+        "P": 134.2,
+        "K": 199.9,
+        "temperature": 22.6,
+        "humidity": 92.3,
+        "ph": 5.9,
+        "rainfall": 112.7
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "orange": {
+      "season": "Annual",
+      "yield_low": 10.0,
+      "yield_high": 20.0,
+      "yield_unit": "t/ha fruit",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. Includes mandarin-type orchards in local trade.",
+      "states": [
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Punjab",
+        "Rajasthan"
+      ],
+      "challenges": [
+        "Citrus decline and phytophthora",
+        "Needs drainage",
+        "Alternate bearing in some varieties"
+      ],
+      "training_profile": {
+        "N": 19.6,
+        "P": 16.6,
+        "K": 10.0,
+        "temperature": 22.8,
+        "humidity": 92.2,
+        "ph": 7.0,
+        "rainfall": 110.5
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "papaya": {
+      "season": "Annual",
+      "yield_low": 40.0,
+      "yield_high": 70.0,
+      "yield_unit": "t/ha fruit",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. A short-lived orchard crop.",
+      "states": [
+        "Andhra Pradesh",
+        "Gujarat",
+        "Karnataka",
+        "Maharashtra"
+      ],
+      "challenges": [
+        "Papaya ringspot virus",
+        "Waterlogging kills the root",
+        "Wind damage to the stem"
+      ],
+      "training_profile": {
+        "N": 49.9,
+        "P": 59.0,
+        "K": 50.0,
+        "temperature": 33.7,
+        "humidity": 92.4,
+        "ph": 6.7,
+        "rainfall": 142.6
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "coconut": {
+      "season": "Annual",
+      "yield_low": 1.5,
+      "yield_high": 2.5,
+      "yield_unit": "t/ha copra equivalent",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP for coconut. Copra and ball copra prices are announced separately and vary by centre.",
+      "states": [
+        "Kerala",
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh"
+      ],
+      "challenges": [
+        "Root wilt and rhinoceros beetle",
+        "Several years to bearing",
+        "Price cycles on copra"
+      ],
+      "training_profile": {
+        "N": 22.0,
+        "P": 16.9,
+        "K": 30.6,
+        "temperature": 27.4,
+        "humidity": 94.8,
+        "ph": 6.0,
+        "rainfall": 175.7
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "cotton": {
+      "season": "Kharif",
+      "yield_low": 1.5,
+      "yield_high": 2.5,
+      "yield_unit": "t/ha seed cotton",
+      "msp_inr_per_quintal": 7121,
+      "msp_note": "Medium staple cotton, 2024-25 CACP reference",
+      "states": [
+        "Gujarat",
+        "Maharashtra",
+        "Telangana",
+        "Karnataka",
+        "Haryana",
+        "Punjab"
+      ],
+      "challenges": [
+        "Pink bollworm",
+        "Needs a dry picking window",
+        "High nitrogen demand within the 0 to 150 form range"
+      ],
+      "training_profile": {
+        "N": 117.8,
+        "P": 46.2,
+        "K": 19.6,
+        "temperature": 24.0,
+        "humidity": 79.8,
+        "ph": 6.9,
+        "rainfall": 80.4
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "jute": {
+      "season": "Kharif",
+      "yield_low": 2.2,
+      "yield_high": 3.2,
+      "yield_unit": "t/ha fibre",
+      "msp_inr_per_quintal": 5335,
+      "msp_note": "Jute, 2024-25 CACP reference",
+      "states": [
+        "West Bengal",
+        "Bihar",
+        "Assam",
+        "Odisha"
+      ],
+      "challenges": [
+        "Needs retting water after harvest",
+        "Waterlogging of the seedling",
+        "Fibre quality drops if harvest is late"
+      ],
+      "training_profile": {
+        "N": 78.4,
+        "P": 46.9,
+        "K": 40.0,
+        "temperature": 25.0,
+        "humidity": 79.6,
+        "ph": 6.7,
+        "rainfall": 174.8
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    },
+    "coffee": {
+      "season": "Annual",
+      "yield_low": 0.6,
+      "yield_high": 1.2,
+      "yield_unit": "t/ha clean coffee",
+      "msp_inr_per_quintal": null,
+      "msp_note": "No CACP MSP. Coffee Board and export prices vary by grade.",
+      "states": [
+        "Karnataka",
+        "Kerala",
+        "Tamil Nadu"
+      ],
+      "challenges": [
+        "Needs shade and a hill climate",
+        "White stem borer and leaf rust",
+        "Not a fit for open plains"
+      ],
+      "training_profile": {
+        "N": 101.2,
+        "P": 28.7,
+        "K": 29.9,
+        "temperature": 25.5,
+        "humidity": 58.9,
+        "ph": 6.8,
+        "rainfall": 158.1
+      },
+      "price_disclaimer": "Indicative reference only. This is not a live mandi rate. Confirm the current government notification and the local market before a sale."
+    }
+  }
+}

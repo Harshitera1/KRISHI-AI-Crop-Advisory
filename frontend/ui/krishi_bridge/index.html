@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    html, body { margin: 0; padding: 0; background: transparent; font-family: sans-serif; }
+    #tools { display: none; gap: 10px; align-items: center; flex-wrap: wrap; }
+    button {
+      background: linear-gradient(180deg, #1f8f55, #14663b);
+      color: white;
+      border: 1px solid rgba(228, 197, 106, 0.55);
+      border-radius: 999px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:disabled { opacity: 0.6; cursor: wait; }
+    #status { color: #d7e7d6; font-size: 13px; min-height: 18px; }
+  </style>
+</head>
+<body>
+  <div id="tools">
+    <button id="speak" type="button">Speak a place name</button>
+    <button id="geo" type="button">Use this device's location</button>
+    <span id="status"></span>
+  </div>
+  <script>
+    const API = 1;
+    let currentLang = "en";
+    let lastAnnounceId = "";
+    let sentRestore = false;
+    let listening = false;
+
+    function post(type, data) {
+      window.parent.postMessage(Object.assign({ isStreamlitMessage: true, type: type }, data), "*");
+    }
+
+    function send(value) {
+      post("streamlit:setComponentValue", { value: value, dataType: "json" });
+    }
+
+    function setHeight() {
+      const tools = document.getElementById("tools");
+      const height = tools.style.display === "none" ? 0 : Math.max(document.body.scrollHeight, 48);
+      post("streamlit:setFrameHeight", { height: height });
+    }
+
+    function speakText(text) {
+      if (!text || !window.speechSynthesis) return;
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = currentLang === "hi" ? "hi-IN" : "en-IN";
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function onRender(args) {
+      args = args || {};
+      currentLang = args.language || "en";
+      const tools = document.getElementById("tools");
+      tools.style.display = args.show_tools ? "flex" : "none";
+      if (args.speak_label) document.getElementById("speak").textContent = args.speak_label;
+      if (args.geo_label) document.getElementById("geo").textContent = args.geo_label;
+      if (args.clear) localStorage.removeItem("krishi_session");
+      if (args.persist && args.persist.token) {
+        localStorage.setItem("krishi_session", JSON.stringify({
+          token: args.persist.token,
+          username: args.persist.username || ""
+        }));
+      }
+      if (args.role === "session" && !sentRestore) {
+        sentRestore = true;
+        const raw = localStorage.getItem("krishi_session");
+        if (raw) {
+          try {
+            const saved = JSON.parse(raw);
+            if (saved.token) send({ kind: "restore", token: saved.token, username: saved.username || "", at: Date.now() });
+          } catch (error) {
+            localStorage.removeItem("krishi_session");
+          }
+        }
+      }
+      if (args.announce && args.announce_id && args.announce_id !== lastAnnounceId) {
+        lastAnnounceId = args.announce_id;
+        speakText(args.announce);
+      }
+      setHeight();
+    }
+
+    document.getElementById("speak").onclick = function () {
+      const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const status = document.getElementById("status");
+      if (!Recognition) {
+        status.textContent = "This browser cannot hear speech. Type the place name.";
+        send({ kind: "speech_error", message: "Speech recognition is not available in this browser.", at: Date.now() });
+        return;
+      }
+      if (listening) return;
+      const recognition = new Recognition();
+      recognition.lang = currentLang === "hi" ? "hi-IN" : "en-IN";
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 3;
+      listening = true;
+      document.getElementById("speak").disabled = true;
+      status.textContent = currentLang === "hi" ? "सुन रहा है..." : "Listening...";
+      recognition.onresult = function (event) {
+        const text = event.results[0][0].transcript;
+        status.textContent = text;
+        send({ kind: "speech", text: text, at: Date.now() });
+      };
+      recognition.onerror = function (event) {
+        const message = event.error === "not-allowed"
+          ? "Microphone permission was blocked. Allow the mic for this site, or type the place."
+          : "Could not hear a place (" + event.error + "). Type the name instead.";
+        status.textContent = message;
+        send({ kind: "speech_error", message: message, at: Date.now() });
+      };
+      recognition.onend = function () {
+        listening = false;
+        document.getElementById("speak").disabled = false;
+      };
+      recognition.start();
+    };
+
+    document.getElementById("geo").onclick = function () {
+      const status = document.getElementById("status");
+      if (!navigator.geolocation) {
+        status.textContent = "This browser has no location service. Type the place name.";
+        send({ kind: "geo_error", message: "Geolocation is not available.", at: Date.now() });
+        return;
+      }
+      status.textContent = currentLang === "hi" ? "स्थान ले रहा है..." : "Reading this device's location...";
+      navigator.geolocation.getCurrentPosition(function (position) {
+        status.textContent = currentLang === "hi" ? "स्थान मिल गया." : "Location received.";
+        send({
+          kind: "geo",
+          lat: position.coords.latitude,
+          lon: position.coords.longitude,
+          at: Date.now()
+        });
+      }, function (error) {
+        status.textContent = error.message || "Location was blocked. Type the place name.";
+        send({ kind: "geo_error", message: error.message || "Location was blocked.", at: Date.now() });
+      }, { enableHighAccuracy: true, timeout: 12000, maximumAge: 0 });
+    };
+
+    window.addEventListener("message", function (event) {
+      if (!event.data || event.data.type !== "streamlit:render") return;
+      onRender(event.data.args || {});
+    });
+
+    function announceReady() {
+      post("streamlit:componentReady", { apiVersion: API });
+    }
+    announceReady();
+    window.addEventListener("load", announceReady);
+  </script>
+</body>
+</html>

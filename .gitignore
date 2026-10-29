@@ -1,0 +1,68 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+.env
+frontend/*.mp3
+backend/generated_reports/*.pdf
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
+*.pkl
+!backend/models/crop_model.pkl
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+
+# macOS and editor files
+.DS_Store
+.vscode/
+
+# Temporary files
+*.log
+requirements.txt.save
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# macOS and editor files
+.DS_Store
+.vscode/
+
+# Temporary files
+*.log
+requirements.txt.save

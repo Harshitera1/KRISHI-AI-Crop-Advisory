@@ -25,6 +25,7 @@ def fetch_soil_data(city, soil_type):
 
             return {
                 "success": True,
+                "source": "stored_profile",
                 "data": {
                     "city": soil_data.get("city"),
                     "soil_type": soil_data.get("soil_type"),

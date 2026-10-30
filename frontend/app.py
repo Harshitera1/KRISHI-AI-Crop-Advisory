@@ -577,19 +577,33 @@ def render_results():
     if not result:
         return
     st.markdown("---")
+    top_3 = result.get("top_3") or []
+    recommended_crop = result.get("recommended_crop")
+    if not recommended_crop or not top_3:
+        st.warning(
+            result.get("message")
+            or "No supported crop recommendation is available for this soil profile."
+        )
+        return
     basis = result.get("advisory_basis")
-    st.subheader(result.get("recommended_crop", "").title())
+    st.subheader(recommended_crop.title())
     if basis == "field":
         st.success(t("basis_field"))
     else:
         st.warning(t("basis_trend"))
-    top = (result.get("top_3") or [{}])[0]
+    top = top_3[0]
     c1, c2, c3 = st.columns(3)
     c1.metric(t("confidence"), f"{round(float(top.get('confidence') or 0) * 100)}%")
     c2.metric(t("risk"), str(result.get("risk_level") or ""))
     c3.metric("Basis", basis or "")
     if result.get("risk_flags"):
         st.warning("\n".join(f"- {flag}" for flag in result["risk_flags"]))
+    soil_info = result.get("soil_info") or {}
+    st.caption(
+        "Soil inputs used: "
+        f"N {soil_info.get('N')}, P {soil_info.get('P')}, K {soil_info.get('K')}, "
+        f"pH {soil_info.get('ph')} · source: {soil_info.get('soil_source', 'unknown')}"
+    )
 
     level = result.get("risk_level")
     gauge_value = {"low": 25, "moderate": 60, "high": 90}.get(level, 40)

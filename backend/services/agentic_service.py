@@ -85,7 +85,7 @@ def check_risk(state: AdvisoryState) -> dict:
 
 def retrieve_for_recommendation(state: AdvisoryState) -> dict:
     recommendation = state["recommendation"]
-    if not recommendation.get("success"):
+    if not recommendation.get("success") or not recommendation.get("recommended_crop"):
         return {"knowledge": []}
 
     farmer_input = state["farmer_input"]
@@ -172,9 +172,12 @@ def _generate_llm_advisory(state: AdvisoryState, include_warning: bool) -> dict:
     recommendation = state["recommendation"]
     farmer_input = state["farmer_input"]
     language = _language_name(farmer_input)
-    if not recommendation.get("success"):
+    if not recommendation.get("success") or not recommendation.get("recommended_crop"):
         return {
-            "advisory_text": "The crop recommendation could not be completed. Please check the location, weather, and soil inputs."
+            "advisory_text": (
+                recommendation.get("message")
+                or "A crop recommendation could not be completed. Please check the location, weather, and soil inputs."
+            )
         }
 
     risk_section = "No risk warning was raised."

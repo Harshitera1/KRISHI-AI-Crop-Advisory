@@ -1,13 +1,19 @@
 from database.mongo import soil_collection
 
+def _key(value):
+    return " ".join(str(value or "").strip().lower().split())
+
+
 def get_soil_data(city, soil_type):
     """Fetch soil data for a specific city and soil type"""
-    if soil_collection is None:
+    city_key = _key(city)
+    soil_key = _key(soil_type)
+    if soil_collection is None or not city_key or not soil_key:
         return None
 
     soil_data = soil_collection.find_one({
-        "city": city.lower(),
-        "soil_type": soil_type.lower()
+        "city": city_key,
+        "soil_type": soil_key
     })
 
     return soil_data
@@ -17,12 +23,17 @@ def create_or_update_soil_data(data):
     if soil_collection is None:
         return None
 
+    normalized = {
+        **data,
+        "city": _key(data.get("city")),
+        "soil_type": _key(data.get("soil_type")),
+    }
     result = soil_collection.update_one(
         {
-            "city": data["city"].lower(),
-            "soil_type": data["soil_type"].lower()
+            "city": normalized["city"],
+            "soil_type": normalized["soil_type"]
         },
-        {"$set": data},
+        {"$set": normalized},
         upsert=True
     )
 
@@ -243,7 +254,7 @@ def get_soil_types_for_city(city):
         return []
 
     soil_types = soil_collection.find(
-        {"city": city.lower()},
+        {"city": _key(city)},
         {"soil_type": 1}
     )
 

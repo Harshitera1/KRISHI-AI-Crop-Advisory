@@ -26,7 +26,7 @@ except Exception as e:
     model = None
 
 
-def predict_crop(data):
+def predict_crop(data, top_n=3):
     if model is None:
         return "Model not loaded"
 
@@ -54,12 +54,12 @@ def predict_crop(data):
         probs = model.predict_proba(input_df)[0]
         crops = model.classes_
 
-        # 🔥 Top 3 crops
-        top_indices = probs.argsort()[-3:][::-1]
+        top_n = max(1, min(int(top_n), len(crops)))
+        top_indices = probs.argsort()[-top_n:][::-1]
 
-        top_3 = []
+        top_crops = []
         for i in top_indices:
-            top_3.append({
+            top_crops.append({
                 "crop": crops[i],
                 "confidence": round(float(probs[i]), 3)
             })
@@ -69,11 +69,11 @@ def predict_crop(data):
             extra={
                 "event": "ml_prediction_end",
                 "request_id": g.get("request_id"),
-                "result": top_3
+                "result": top_crops
             }
         )
 
-        return top_3
+        return top_crops
 
     except Exception as e:
         logger.error(

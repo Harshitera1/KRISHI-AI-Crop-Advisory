@@ -1,9 +1,9 @@
 import logging
+import re
 
 from flask import g
 
 from database.mongo import history_collection
-from models.npk_region_model import NPK_RECOMMENDATIONS
 from models.soil_model import get_soil_data
 from services.crop_service import predict_crop
 from services.fertilizer_service import recommend_fertilizer
@@ -43,6 +43,10 @@ def _crop_names(records):
     return names
 
 
+def _crop_key(crop):
+    return re.sub(r"[^a-z0-9]", "", str(crop or "").casefold())
+
+
 def _resolve_coordinates(data):
     latitude = _as_float(data.get("latitude"))
     longitude = _as_float(data.get("longitude"))
@@ -72,31 +76,46 @@ def _resolve_coordinates(data):
 
 
 def _soil_from_profile(profile, soil_type):
+    profile_ph = _as_float(profile.get("ph"))
     return {
         "N": _clamp_nutrient(profile.get("N")),
         "P": _clamp_nutrient(profile.get("P")),
         "K": _clamp_nutrient(profile.get("K")),
-        "ph": _as_float(profile.get("ph")) or _SOIL_PH.get(soil_type.lower(), 6.5),
+        "ph": profile_ph if profile_ph is not None else _SOIL_PH.get(soil_type.lower(), 6.5),
         "soil_source": "nearest_profile",
     }
 
 
-def _suitable_crops(city, nearest_name, soil_type, profile_crops):
-    found = []
-    for name in (city, nearest_name):
-        if not name:
+def _stored_soil_profile(names, soil_type):
+    seen = set()
+    for name in names:
+        key = str(name or "").strip().casefold()
+        if not key or key in seen:
             continue
+        seen.add(key)
         try:
-            record = get_soil_data(name, soil_type)
-        except Exception:
-            record = None
-        if record:
-            found.extend(record.get("crops") or [])
-    found.extend(profile_crops or [])
+            profile = get_soil_data(name, soil_type)
+        except Exception as error:
+            logger.warning(
+                "Stored soil profile lookup failed",
+                extra={
+                    "event": "soil_profile_lookup_error",
+                    "location": name,
+                    "error": str(error),
+                },
+            )
+            continue
+        if profile:
+            return profile
+    return None
+
+
+def _suitable_crops(profile, fallback_crops):
+    found = (profile.get("crops") or []) if profile is not None else (fallback_crops or [])
     unique = []
     seen = set()
     for crop in found:
-        key = str(crop).strip().lower()
+        key = _crop_key(crop)
         if key and key not in seen:
             seen.add(key)
             unique.append(str(crop).strip())
@@ -151,8 +170,14 @@ def get_crop(data):
         "K": _clamp_nutrient(data.get("K")),
         "ph": _as_float(data.get("ph")),
     }
+    stored_profile = _stored_soil_profile(
+        (city, resolved.get("name"), nearest_city),
+        soil_type,
+    )
     if requested_source == "estimate" or any(value is None for value in farmer_npk.values()):
-        soil_values = _soil_from_profile(location_match, soil_type)
+        selected_profile = stored_profile or location_match
+        soil_values = _soil_from_profile(selected_profile, soil_type)
+        soil_values["soil_source"] = "stored_profile" if stored_profile else "nearest_profile"
         for key, value in farmer_npk.items():
             if value is not None and requested_source != "estimate":
                 soil_values[key] = value
@@ -160,7 +185,10 @@ def get_crop(data):
     else:
         soil_values = {**farmer_npk, "soil_source": "farmer"}
 
-    suitable_crops = _suitable_crops(city, nearest_city, soil_type, location_match.get("crops"))
+    suitable_crops = _suitable_crops(
+        stored_profile,
+        location_match.get("crops"),
+    )
     rainfall = weather.get("seasonal_rainfall_mm")
     ml_input = {
         "N": soil_values["N"],
@@ -172,42 +200,55 @@ def get_crop(data):
         "rainfall": rainfall if rainfall is not None else 0,
     }
 
-    result = predict_crop(ml_input)
+    result = predict_crop(ml_input, top_n=22)
     if not isinstance(result, list):
         return {"success": False, "message": result}
 
-    nearby = {str(crop).lower() for crop in location_match.get("crops", [])}
-    regional = {str(crop).lower() for crop in NPK_RECOMMENDATIONS.get(region, {})}
-    adjusted = []
-    for item in result:
-        name = str(item["crop"]).lower()
-        confidence = float(item["confidence"])
-        if name in nearby:
-            confidence = min(confidence * 1.15, 0.99)
-            fit = "nearby"
-        elif name in regional:
-            confidence = min(confidence * 1.05, 0.99)
-            fit = "region"
-        else:
-            confidence = confidence * 0.9
-            fit = "outside_nearby_trend"
-        adjusted.append({"crop": item["crop"], "confidence": round(confidence, 3), "fit": fit})
-    adjusted.sort(key=lambda item: item["confidence"], reverse=True)
-    result = adjusted
-
-    if suitable_crops:
-        suitable_keys = {crop.lower() for crop in suitable_crops}
-        reranked = []
-        for item in result:
-            confidence = item["confidence"]
-            if item["crop"].lower() in suitable_keys:
-                confidence = min(round(confidence * 1.1, 3), 0.99)
-            reranked.append({**item, "confidence": confidence})
-        reranked.sort(key=lambda item: item["confidence"], reverse=True)
-        result = reranked
+    suitable_keys = {_crop_key(crop) for crop in suitable_crops}
+    filtered = [
+        {**item, "fit": "soil_profile"}
+        for item in result
+        if _crop_key(item["crop"]) in suitable_keys and item["confidence"] > 0
+    ]
+    if stored_profile is not None or suitable_crops:
+        result = filtered[:3]
+    else:
+        result = [{**item, "fit": "model"} for item in result[:3]]
 
     if not result:
-        return {"success": False, "message": "Could not generate recommendations for this place."}
+        return {
+            "success": True,
+            "recommendation_available": False,
+            "recommended_crop": None,
+            "top_3": [],
+            "message": (
+                "The selected soil profile does not overlap the preserved model classes "
+                "with a non-zero probability, so no crop recommendation is shown."
+            ),
+            "weather": weather,
+            "ml_input": ml_input,
+            "soil_info": {
+                "city": resolved["name"],
+                "state": resolved.get("state") or location_match.get("state"),
+                "soil_type": soil_type,
+                "region": region,
+                "suitable_crops": suitable_crops,
+                "soil_source": soil_values["soil_source"],
+                "N": ml_input["N"],
+                "P": ml_input["P"],
+                "K": ml_input["K"],
+                "ph": ml_input["ph"],
+            },
+            "fertilizer": None,
+            "mapped_location": nearest_city,
+            "user_selected_location": resolved["name"],
+            "resolved_place": resolved,
+            "region": region,
+            "proximity": location_match,
+            "nearby_crops": location_match.get("crops", []),
+            "crop_cards": [],
+            "advisory_basis": "unavailable",
+        }
 
     top_confidence = result[0]["confidence"]
     if (

@@ -1,5 +1,6 @@
 """OpenWeather geocoding, current conditions, and a short forecast."""
 import os
+import logging
 from datetime import datetime
 
 import requests
@@ -11,10 +12,11 @@ TIMEOUT = 8
 _GEO_CACHE = {}
 _NOMINATIM = "https://nominatim.openstreetmap.org/search"
 _NOMINATIM_REVERSE = "https://nominatim.openstreetmap.org/reverse"
+logger = logging.getLogger(__name__)
 
 
 def _api_key():
-    return os.getenv("WEATHER_API_KEY")
+    return (os.getenv("WEATHER_API_KEY") or "").strip()
 
 
 def _missing_key():
@@ -22,7 +24,11 @@ def _missing_key():
 
 
 def _get(url, params):
-    response = requests.get(url, params=params, timeout=TIMEOUT)
+    try:
+        response = requests.get(url, params=params, timeout=TIMEOUT)
+    except requests.RequestException as error:
+        logger.warning("Weather provider request failed: %s", error)
+        return 0, {"message": "Weather provider is unavailable"}
     try:
         payload = response.json()
     except ValueError:
@@ -113,13 +119,17 @@ def geocode(query, limit=5):
                 break
 
     if _best_name_score(text, results) < 80:
-        response = requests.get(
-            _NOMINATIM,
-            params={"q": f"{text}, India", "format": "jsonv2", "limit": limit, "addressdetails": 1, "countrycodes": "in"},
-            headers={"User-Agent": "KRISHI-AI-Crop/1.0 (educational capstone)"},
-            timeout=TIMEOUT,
-        )
-        payload = response.json() if response.status_code == 200 else []
+        try:
+            response = requests.get(
+                _NOMINATIM,
+                params={"q": f"{text}, India", "format": "jsonv2", "limit": limit, "addressdetails": 1, "countrycodes": "in"},
+                headers={"User-Agent": "KRISHI-AI-Crop/1.0 (educational capstone)"},
+                timeout=TIMEOUT,
+            )
+            payload = response.json() if response.status_code == 200 else []
+        except (requests.RequestException, ValueError) as error:
+            logger.warning("Geocoding fallback failed: %s", error)
+            payload = []
         if isinstance(payload, list):
             for item in payload:
                 address = item.get("address") or {}
@@ -168,23 +178,26 @@ def reverse_geocode(latitude, longitude):
             place["lon"] = longitude
 
     if place is None:
-        response = requests.get(
-            _NOMINATIM_REVERSE,
-            params={"lat": latitude, "lon": longitude, "format": "jsonv2"},
-            headers={"User-Agent": "KRISHI-AI-Crop/1.0 (educational capstone)"},
-            timeout=TIMEOUT,
-        )
-        if response.status_code == 200:
-            payload = response.json()
-            address = payload.get("address") or {}
-            place = {
-                "name": payload.get("name") or address.get("village") or address.get("town") or address.get("city") or "Selected place",
-                "state": address.get("state", ""),
-                "country": (address.get("country_code") or "").upper(),
-                "lat": latitude,
-                "lon": longitude,
-                "source": "nominatim",
-            }
+        try:
+            response = requests.get(
+                _NOMINATIM_REVERSE,
+                params={"lat": latitude, "lon": longitude, "format": "jsonv2"},
+                headers={"User-Agent": "KRISHI-AI-Crop/1.0 (educational capstone)"},
+                timeout=TIMEOUT,
+            )
+            if response.status_code == 200:
+                payload = response.json()
+                address = payload.get("address") or {}
+                place = {
+                    "name": payload.get("name") or address.get("village") or address.get("town") or address.get("city") or "Selected place",
+                    "state": address.get("state", ""),
+                    "country": (address.get("country_code") or "").upper(),
+                    "lat": latitude,
+                    "lon": longitude,
+                    "source": "nominatim",
+                }
+        except (requests.RequestException, ValueError) as error:
+            logger.warning("Reverse geocoding fallback failed: %s", error)
 
     if place is None:
         place = {

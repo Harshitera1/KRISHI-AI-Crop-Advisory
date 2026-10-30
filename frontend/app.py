@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from ui.api import ApiError, get, post, post_bytes
+from ui.api import ApiError, BASE_URL, get, post, post_bytes
 from ui.bridge import browser_bridge
 from ui.i18n import translate
 from ui.theme import CSS
@@ -47,6 +47,7 @@ def init_state():
         "geo_key": None,
         "map_click": None,
         "bridge_sig": "",
+        "location_event_key": "",
         "place_error": "",
         "announce": "",
         "announce_id": "",
@@ -100,6 +101,18 @@ def clean_place_phrase(text):
     return cleaned.strip(" .,")
 
 
+def location_event_key(event):
+    kind = (event or {}).get("kind")
+    if kind == "speech" and event.get("text"):
+        return f"speech:{clean_place_phrase(event['text']).casefold()}"
+    if kind == "geo" and event.get("lat") is not None and event.get("lon") is not None:
+        try:
+            return f"geo:{float(event['lat']):.4f}:{float(event['lon']):.4f}"
+        except (TypeError, ValueError):
+            return None
+    return None
+
+
 def place_sentence(payload):
     point = payload.get("place") or {}
     nearest = payload.get("nearest") or {}
@@ -127,6 +140,9 @@ def handle_bridge(event):
         return
     st.session_state.bridge_sig = signature
     kind = event.get("kind")
+    location_key = location_event_key(event)
+    if location_key and location_key == st.session_state.get("location_event_key"):
+        return
     try:
         if kind == "restore" and not st.session_state.token and event.get("token"):
             st.session_state.token = event["token"]
@@ -135,17 +151,21 @@ def handle_bridge(event):
         elif kind == "speech" and event.get("text"):
             phrase = clean_place_phrase(event["text"])
             if phrase:
+                st.session_state.location_event_key = location_key
                 st.session_state.heard_place = phrase
                 apply_place(resolve_query(phrase))
             else:
                 st.session_state.place_error = "No place name was heard. Try again or type it."
                 st.rerun()
         elif kind == "geo" and event.get("lat") is not None:
+            st.session_state.location_event_key = location_key
             apply_place(resolve_point(event["lat"], event["lon"]))
         elif kind in ("speech_error", "geo_error"):
             st.session_state.place_error = event.get("message") or "That action did not complete."
             st.rerun()
     except (ApiError, Exception) as error:
+        if location_key:
+            st.session_state.location_event_key = ""
         st.session_state.place_error = str(error)
         st.rerun()
 
@@ -265,7 +285,7 @@ def render_sidebar():
         index=0 if st.session_state.language == "en" else 1,
     )
     st.session_state.language = language
-    st.sidebar.caption(f"{t('connected')}: 127.0.0.1:5001")
+    st.sidebar.caption(f"{t('connected')}: {BASE_URL}")
     st.sidebar.caption(st.session_state.username)
     if st.sidebar.button(t("logout")):
         for key in ("token", "username", "place", "last_result", "last_payload", "audio", "answer", "announce"):

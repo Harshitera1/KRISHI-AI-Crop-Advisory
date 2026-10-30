@@ -10,13 +10,11 @@ farm_bp = Blueprint("farm", __name__)
 @token_required
 def add():
     data = request.get_json(silent=True) or {}
-    if not data.get("username"):
-        data["username"] = g.get("user")
+    data["username"] = g.get("user")
     return jsonify(add_farm(data))
 
 
 @farm_bp.route("/list", methods=["GET"])
 @token_required
 def listing():
-    username = request.args.get("username") or g.get("user")
-    return jsonify(list_farms(username))
+    return jsonify(list_farms(g.get("user")))

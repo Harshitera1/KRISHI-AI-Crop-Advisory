@@ -28,8 +28,21 @@ logger = logging.getLogger(__name__)
 # ✅ Create app FIRST
 app = Flask(__name__)
 
-# 🔥 Enable CORS
-CORS(app, resources={r"/api/*": {"origins": "*", "methods": ["GET", "POST", "PUT", "DELETE"], "allow_headers": ["Content-Type", "Authorization"]}})
+def _cors_origins():
+    configured = os.getenv("CORS_ORIGINS") or os.getenv("FRONTEND_URL")
+    if configured:
+        return [origin.strip().rstrip("/") for origin in configured.split(",") if origin.strip()]
+    if os.getenv("FLASK_ENV", "").lower() == "production":
+        logger.warning("CORS_ORIGINS or FRONTEND_URL is required in production")
+        return []
+    return ["http://127.0.0.1:8501", "http://localhost:8501"]
+
+
+CORS(app, resources={r"/api/*": {
+    "origins": _cors_origins(),
+    "methods": ["GET", "POST", "PUT", "DELETE"],
+    "allow_headers": ["Content-Type", "Authorization"],
+}})
 
 # 🔥 Init bcrypt AFTER app
 bcrypt.init_app(app)
@@ -113,5 +126,6 @@ if __name__ == "__main__":
         "Backend running",
         extra={"event": "app_startup", "status_code": 200}
     )
-    debug = os.getenv("FLASK_DEBUG", "0") == "1"
+    production = os.getenv("FLASK_ENV", "").lower() == "production"
+    debug = not production and os.getenv("FLASK_DEBUG", "0") == "1"
     app.run(host="127.0.0.1", port=int(os.getenv("PORT", "5001")), debug=debug)

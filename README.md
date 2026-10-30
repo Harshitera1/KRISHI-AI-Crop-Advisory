@@ -22,7 +22,7 @@ On the first advisory, the app downloads the small `all-MiniLM-L6-v2` embedding 
 
 ## Environment
 
-Copy `.env.example` to `backend/.env` if that file is not already present. Four values are required:
+Copy `.env.example` to `backend/.env` if that file is not already present. Four backend values are required:
 
 - `MONGO_URI`
 - `SECRET_KEY`
@@ -30,6 +30,8 @@ Copy `.env.example` to `backend/.env` if that file is not already present. Four 
 - `GROQ_API_KEY`
 
 Login and saved history need MongoDB. A crop advisory also needs OpenWeather and Groq. If Atlas is down, sign-in fails, but district soil estimates still come from the local gazetteer once a signed-in session exists.
+
+The Streamlit deployment should set `API_BASE_URL` in Streamlit Secrets (or the environment). It overrides the local default `http://127.0.0.1:5001`. For a deployed API, set `CORS_ORIGINS` on the backend to the exact Streamlit origin (comma-separated for more than one); production starts with no cross-origin allowlist if neither `CORS_ORIGINS` nor `FRONTEND_URL` is configured. Set `FLASK_ENV=production` on Render to force debug off.
 
 `CHANGES.md` lists what this upgrade changed, how a farmer moves through the desk, and what a later coding session must not reinstall or replace.
 

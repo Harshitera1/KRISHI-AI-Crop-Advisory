@@ -1,7 +1,24 @@
+
 """Small client for the KRISHI Flask API."""
+import os
 import requests
 
-BASE_URL = "http://127.0.0.1:5001"
+BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:5001")
+
+try:
+    import streamlit as st
+except ImportError:
+    st = None
+
+if st is not None:
+    try:
+        configured_url = st.secrets.get("API_BASE_URL")
+    except (FileNotFoundError, KeyError, AttributeError):
+        configured_url = None
+    if configured_url:
+        BASE_URL = configured_url
+
+BASE_URL = BASE_URL.rstrip("/")
 
 
 class ApiError(Exception):
